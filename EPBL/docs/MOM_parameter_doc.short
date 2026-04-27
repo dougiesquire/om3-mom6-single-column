@@ -115,6 +115,11 @@ EQN_OF_STATE = "WRIGHT"         ! default = "WRIGHT_FULL"
                                 ! "TEOS10".  This is only used if USE_EOS is true.
 
 ! === module MOM_tracer_flow_control ===
+USE_generic_tracer = True       !   [Boolean] default = False
+                                ! If true and _USE_GENERIC_TRACER is defined as a preprocessor macro, use the
+                                ! MOM_generic_tracer packages.
+
+! === module register_MOM_generic_tracer ===
 
 ! === module MOM_coord_initialization ===
 REGRIDDING_COORDINATE_MODE = "Z*" ! default = "LAYER"

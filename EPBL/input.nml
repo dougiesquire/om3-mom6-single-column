@@ -16,3 +16,10 @@
          clock_grain = 'LOOP',
          domains_stack_size = 710000,
          stack_size = 0 /
+
+&generic_tracer_nml
+         do_generic_tracer=.true.
+         do_generic_WOMBATlite=.true. /
+
+&generic_wombatlite_nml
+/

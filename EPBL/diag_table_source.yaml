@@ -205,3 +205,134 @@ diag_table:
             hfrainds: # Heat content (relative to 0degC) of liquid+frozen precip entering ocean
             net_heat_coupler: # Surface ocean heat flux from SW+LW+latent+sensible+seaice_melt_heat (via the coupler)
             hfds: # Surface ocean heat flux from SW+LW+lat+sens+mass transfer+frazil+restore+seaice_melt_heat or flux adjustments net_heat_surface
+
+    '3d prognostic BGC fields':
+        defaults:  # these can be overridden for individual fields below
+            file_name_dimension: 3d  # descriptor for filename, e.g. 3d, 2d, scalar
+            reduction_method: mean
+            module_name: generic_wombatlite
+        fields:
+            alk:
+            caco3:
+            det:
+            detfe:
+            dic:
+            dicr:
+            dicp:
+            fe:
+            no3:
+            o2:
+            phy:
+            phyfe:
+            pchl:
+            zoo:
+            zoofe:
+
+    '3d diagnostic BGC fields':
+        defaults:  # these can be overridden for individual fields below
+            file_name_dimension: 3d  # descriptor for filename, e.g. 3d, 2d, scalar
+            reduction_method: mean
+            module_name: generic_wombatlite
+        fields:
+            npp3d:
+            zsp3d:
+            radbio:
+            #radmid:
+            #radmld:
+            phy_mu:
+            #phy_muax:
+            #phy_kni:
+            #phy_kfe:
+            phy_lpar:
+            phy_lnit:
+            phy_lfer:
+            phy_dfeupt:
+            #phy_feupreg:
+            #phy_fedoreg:
+            phygrow:
+            phymorl:
+            phymorq:
+            pchl_mu:
+            #feIII:
+            #felig:
+            #fecol:
+            #feprecip:
+            #fescaven:
+            #fescadet:
+            #fescoag2det:
+            fesources:
+            fesinks:
+            htotal:
+            omega_ara:
+            omega_cal:
+            #co3:
+            #co2_star:
+            pic2poc:
+            zooeps:
+            zoograzphy:
+            zoograzdet:
+            #zooassiphy:
+            #zooassidet:
+            #zooexcrphy:
+            #zooexcrdet:
+            #zooegesphy:
+            #zooegesdet:
+            #zoomorl:
+            #zoomorq:
+            #reminr:
+            detremi:
+            #dissratcal:
+            #dissratara:
+            #dissratpoc:
+            #zoodiss:
+            #caldiss:
+            #aradiss:
+            #pocdiss:
+            det_vmove:
+            caco3_vmove:
+
+    '2d diagnostic BGC fields':
+        defaults:  # these can be overridden for individual fields below
+            file_name_dimension: 2d  # descriptor for filename, e.g. 3d, 2d, scalar
+            reduction_method: mean
+            module_name: generic_wombatlite
+        fields:
+            pco2:
+            #det_sed_remin:
+            #det_sed_depst:
+            #detfe_sed_remin:
+            #detfe_sed_depst:
+            #caco3_sed_remin:
+            #caco3_sed_depst:
+            #fbury:
+            o2_stf:
+            #no3_stf:
+            #fe_stf:
+            dic_stf:
+            dic_csurf:
+            #dicp_stf:
+            #dicp_csurf:
+            #alk_stf:
+            #o2_btf:
+            #no3_btf:
+            #fe_btf:
+            #dic_btf:
+            #alk_btf:
+            #no3_vstf:
+            #dic_vstf:
+            #dicp_vstf:
+            #alk_vstf:
+            det_sediment:
+            detfe_sediment:
+            caco3_sediment:
+            zeuphot:
+            #sedtemp:
+            #seddep:
+            #sedmask:
+            #sedsalt:
+            #sedno3:
+            #seddic:
+            #sedalk:
+            #sedhtotal:
+            #sedco3:
+            #sedomega_cal:

@@ -1,1 +1,8 @@
 # gridname, fieldname_code, fieldname_file, file_name,       ongrid, factor
+"OCN", "co2_flux_pcair_atm"     , "", "", "none" , 315.165e-06
+"OCN", "o2_flux_pcair_atm"      , "", "", "none" , 0.21
+"OCN", "dry_dep_fe_flux_ice_ocn", "", "", "none" , -7.0e-13
+# "OCN", "runoff_no3_flux_ice_ocn", "", "", "none" , 0.0
+# "OCN", "runoff_det_flux_ice_ocn", "", "", "none" , 0.0
+# "OCN", "runoff_dic_flux_ice_ocn", "", "", "none" , 0.0
+# "OCN", "runoff_alk_flux_ice_ocn", "", "", "none" , 0.0
