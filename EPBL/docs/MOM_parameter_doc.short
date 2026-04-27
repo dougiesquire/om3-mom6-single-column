@@ -20,6 +20,8 @@ C_P = 3925.0                    !   [J kg-1 K-1] default = 3991.86795711963
                                 ! definition of conservative temperature.
 SAVE_INITIAL_CONDS = True       !   [Boolean] default = False
                                 ! If true, write the initial conditions to a file given by IC_OUTPUT_FILE.
+HOMOGENIZE_FORCINGS = True      !   [Boolean] default = False
+                                ! If True, homogenize the forces and fluxes.
 
 ! === module MOM_domains ===
 REENTRANT_Y = True              !   [Boolean] default = False
@@ -37,6 +39,10 @@ NJHALO = 2                      ! default = 4
                                 ! The number of halo points on each side in the y-direction.  How this is set
                                 ! varies with the calling component and static or dynamic memory configuration.
 
+! === module MOM_fixed_initialization ===
+INPUTDIR = "INPUT/BATS"         ! default = "."
+                                ! The directory in which input files are found.
+
 ! === module MOM_grid_init ===
 GRID_CONFIG = "cartesian"       !
                                 ! A character string that determines the method for defining the horizontal
@@ -46,11 +52,14 @@ GRID_CONFIG = "cartesian"       !
                                 !     cartesian - use a (flat) Cartesian grid.
                                 !     spherical - use a simple spherical grid.
                                 !     mercator - use a Mercator spherical grid.
-SOUTHLAT = 30.0                 !   [degrees]
+SOUTHLAT = 31.2                 !   [degrees]
                                 ! The southern latitude of the domain or the equivalent starting value for the
                                 ! y-axis.
 LENLAT = 1.0                    !   [degrees]
                                 ! The latitudinal or y-direction length of the domain.
+WESTLON = -64.7                 !   [degrees] default = 0.0
+                                ! The western longitude of the domain or the equivalent starting value for the
+                                ! x-axis.
 LENLON = 1.0                    !   [degrees]
                                 ! The longitudinal or x-direction length of the domain.
 TOPO_CONFIG = "flat"            !
@@ -84,12 +93,6 @@ MINIMUM_DEPTH = 0.5             !   [m] default = 0.0
                                 ! The minimum depth of the ocean.
 MAXIMUM_DEPTH = 6000.0          !   [m]
                                 ! The maximum depth of the ocean.
-
-! === module MOM_open_boundary ===
-! Controls where open boundaries are located, what kind of boundary condition to impose, and what data to apply,
-! if any.
-
-! === module MOM_fixed_initialization ===
 ROTATION = "betaplane"          ! default = "2omegasinlat"
                                 ! This specifies how the Coriolis parameter is specified:
                                 !     2omegasinlat - Use twice the planetary rotation rate
@@ -163,8 +166,6 @@ ALE_COORDINATE_CONFIG = "FILE:./INPUT/vgrid_cm4.nc,dz" ! default = "UNIFORM"
                                 ! is of non-dimensional fractions of the water column.
 
 ! === module MOM_state_initialization ===
-INPUTDIR = "INPUT/BATS"         ! default = "."
-                                ! The directory in which input files are found.
 INIT_LAYERS_FROM_Z_FILE = True  !   [Boolean] default = False
                                 ! If true, initialize the layer thicknesses, temperatures, and salinities from a
                                 ! Z-space file on a latitude-longitude grid.
@@ -355,39 +356,24 @@ ENERGYSAVEDAYS = 10.0           !   [days] default = 1.0
 
 ! === module ocean_stochastics_init ===
 
-! === module MOM_surface_forcing ===
-BUOY_CONFIG = "data_override"   ! default = "zero"
-                                ! The character string that indicates how buoyancy forcing is specified.  Valid
-                                ! options include (file), (data_override), (zero), (const), (linear), (MESO),
-                                ! (SCM_CVmix_tests), (BFB), (dumbbell), (USER) and (NONE).
-WIND_CONFIG = "data_override"   ! default = "zero"
-                                ! The character string that indicates how wind forcing is specified.  Valid
-                                ! options include (file), (data_override), (2gyre), (1gyre), (gyres), (zero),
-                                ! (const), (Neverworld), (scurves), (ideal_hurr), (SCM_CVmix_tests) and (USER).
+! === module ocean_model_init ===
+OCEAN_SURFACE_STAGGER = "A"     ! default = "C"
+                                ! A case-insensitive character string to indicate the staggering of the surface
+                                ! velocity field that is returned to the coupler.  Valid values include 'A',
+                                ! 'B', or 'C'.
+EPS_OMESH = 1.0E-13             !   [degrees] default = 1.0E-04
+                                ! Maximum allowable difference between ESMF mesh and MOM6 domain coordinates in
+                                ! nuopc cap.
+
+! === module MOM_surface_forcing_nuopc ===
+LATENT_HEAT_FUSION = 3.337E+05  !   [J/kg] default = 3.34E+05
+                                ! The latent heat of fusion.
+LATENT_HEAT_VAPORIZATION = 2.501E+06 !   [J/kg] default = 2.5E+06
+                                ! The latent heat of fusion.
+WIND_STAGGER = "A"              ! default = "C"
+                                ! A case-insensitive character string to indicate the staggering of the input
+                                ! wind stress field.  Valid values are 'A', 'B', or 'C'.
 READ_GUST_2D = True             !   [Boolean] default = False
                                 ! If true, use a 2-dimensional gustiness supplied from an input file
 GUST_2D_FILE = "forcing_monthly.nc" !
                                 ! The file in which the wind gustiness is found in variable gustiness.
-
-! === module MOM_main (MOM_driver) ===
-DAYMAX = 180.0                  !   [days]
-                                ! The final time of the whole simulation, in units of TIMEUNIT seconds.  This
-                                ! also sets the potential end time of the present run segment if the end time is
-                                ! not set via ocean_solo_nml in input.nml.
-RESTART_CONTROL = 0             ! default = 1
-                                ! An integer whose bits encode which restart files are written. Add 2 (bit 1)
-                                ! for a time-stamped file, and odd (bit 0) for a non-time-stamped file. A
-                                ! non-time-stamped restart file is saved at the end of the run segment for any
-                                ! non-negative value.
-RESTINT = 3650.0                !   [days] default = 0.0
-                                ! The interval between saves of the restart file in units of TIMEUNIT.  Use 0
-                                ! (the default) to not save incremental restart files at all.
-
-! === module MOM_write_cputime ===
-MAXCPU = 2.88E+04               !   [wall-clock seconds] default = -1.0
-                                ! The maximum amount of cpu time per processor for which MOM should run before
-                                ! saving a restart file and quitting with a return value that indicates that a
-                                ! further run is required to complete the simulation. If automatic restarts are
-                                ! not desired, use a negative value for MAXCPU.  MAXCPU has units of wall-clock
-                                ! seconds, so the actual CPU time used is larger by a factor of the number of
-                                ! processors used.

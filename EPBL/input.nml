@@ -1,14 +1,16 @@
  &MOM_input_nml
          output_directory = './',
-         input_filename = 'n'
-         restart_input_dir = 'INPUT/',
-         restart_output_dir = 'RESTART/',
+         restart_input_dir = './',
+         restart_output_dir = './',
          parameter_filename = 'MOM_input',
                               'MOM_override',
                               'MOM_override2' /
 
  &diag_manager_nml
- /
+         flush_nc_files = .true.
+         max_axes = 400
+         max_files = 200
+         max_num_axis_sets = 200 /
 
  &fms_nml
          clock_grain = 'LOOP',

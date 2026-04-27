@@ -1,0 +1,10 @@
+&drof_nml
+  datamode = "copyall"
+  model_maskfile = "./INPUT/single-column-ESMFmesh.nc"
+  model_meshfile = "./INPUT/single-column-ESMFmesh.nc"
+  nx_global = 2
+  ny_global = 2
+  restfilm = "null"
+  skip_restart_read = .false.
+/
+
