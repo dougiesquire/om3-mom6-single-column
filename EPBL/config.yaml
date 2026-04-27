@@ -14,7 +14,7 @@ modules:
         - access-om3/2026.03.000
 
 queue: normalsr
-ncpus: 2
+ncpus: 5
 walltime: 1:00:00
 jobname: single_column
 

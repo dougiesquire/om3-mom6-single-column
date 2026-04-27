@@ -27,27 +27,27 @@ DRIVER_attributes::
 ::
 
 PELAYOUT_attributes::
-     atm_ntasks = 1
+     atm_ntasks = 2
      atm_nthreads = 1
      atm_pestride = 1
      atm_rootpe = 0
-     cpl_ntasks = 1
+     cpl_ntasks = 2
      cpl_nthreads = 1
      cpl_pestride = 1
-     cpl_rootpe = 0
+     cpl_rootpe = 2
      esmf_logging = ESMF_LOGKIND_NONE
      ninst = 1
      ocn_ntasks = 1
      ocn_nthreads = 1
      ocn_pestride = 1
-     ocn_rootpe = 1
+     ocn_rootpe = 4
      pio_asyncio_ntasks = 0
      pio_asyncio_rootpe = 1
      pio_asyncio_stride = 0
-     rof_ntasks = 1
+     rof_ntasks = 2
      rof_nthreads = 1
      rof_pestride = 1
-     rof_rootpe = 0
+     rof_rootpe = 2
 ::
 
 component_list: MED ATM OCN ROF

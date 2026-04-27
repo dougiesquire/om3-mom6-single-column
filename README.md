@@ -20,6 +20,13 @@ $ module load payu
 $ payu run
 ```
 
+## Performance
+
+The approximate cost of running this configuration without modification is:
+- Compute usage: 0.3 SU/year
+- Model throughput: 40 years/hour
+- Total CPUs: 5
+
 ## Changing the domain
 
 To set up a new domain, or allow an existing one (example shown for existing BATS domain):
