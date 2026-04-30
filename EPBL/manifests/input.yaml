@@ -4,137 +4,142 @@ version: 1.0
 work/INPUT/Arabian/ICs.nc:
   fullpath: /g/data/tm70/ds0092/model/config/om3_M_single-column/INPUT/Arabian/ICs.nc
   hashes:
-    binhash: e9ee9a6b0f48d71dd056499aa4d29afe
+    binhash: 1595222dda4f5a908a0e774c4d513ece
     md5: 5c30403a521bfc3981b5f32f56b4e447
 work/INPUT/Arabian/MOM_override:
   fullpath: /g/data/tm70/ds0092/model/config/om3_M_single-column/INPUT/Arabian/MOM_override
   hashes:
-    binhash: 00681b214b60b05bd427dc702259f8dd
+    binhash: afb996d57a50c06e3a818fbe363cfaf9
     md5: 4a6041dcdf6a36b1a809232a1b3f0f4c
 work/INPUT/Arabian/WOA_column.nc:
   fullpath: /g/data/tm70/ds0092/model/config/om3_M_single-column/INPUT/Arabian/WOA_column.nc
   hashes:
-    binhash: 0c012d5cedfa6b0b46cfcb964282e62b
+    binhash: 1804b89048185bf373e2a62cd233577a
     md5: 41cd873ca158830f0a5a3f43e0b64367
 work/INPUT/Arabian/forcing.nc:
   fullpath: /g/data/tm70/ds0092/model/config/om3_M_single-column/INPUT/Arabian/forcing.nc
   hashes:
-    binhash: b68b4dee503025c81827dff12ee7cec7
+    binhash: fb3157dd65c271c6053b264758c44443
     md5: c22a2506e3e96ca7960cc5a82be32503
 work/INPUT/Arabian/forcing_monthly.nc:
   fullpath: /g/data/tm70/ds0092/model/config/om3_M_single-column/INPUT/Arabian/forcing_monthly.nc
   hashes:
-    binhash: 1653980fc838df054a023d4566c5e318
+    binhash: 445f93c8bf51f3173edb88c4133927fc
     md5: d60dcaf3115cf27b8cefd59787785267
 work/INPUT/Arabian/itides.nc:
   fullpath: /g/data/tm70/ds0092/model/config/om3_M_single-column/INPUT/Arabian/itides.nc
   hashes:
-    binhash: e9e2db5aab807dce655ce20f9ea4f25d
+    binhash: 26736b852e712bd1899dbc1b8e24e15e
     md5: 96cefc0a8a324987792b7146ae4df1d4
 work/INPUT/BATS/ICs.nc:
   fullpath: /g/data/tm70/ds0092/model/config/om3_M_single-column/INPUT/BATS/ICs.nc
   hashes:
-    binhash: e884a04590c3743ce593d9735d85c0e3
+    binhash: 7c6b1bcbffa9b0527d50f0180ee0910c
     md5: 07f56934c9ebe522de33fa82b0735801
 work/INPUT/BATS/MOM_override:
   fullpath: /g/data/tm70/ds0092/model/config/om3_M_single-column/INPUT/BATS/MOM_override
   hashes:
-    binhash: 145bac8e45443508606433ffec075384
+    binhash: 7019b931783287fb8c639c1743b8415d
     md5: c5365fb7de99eddf649e47f56f736785
+work/INPUT/BATS/SFe_Hamiltonetal2020_monthly_clim.nc:
+  fullpath: /g/data/tm70/ds0092/model/config/om3_M_single-column/INPUT/BATS/SFe_Hamiltonetal2020_monthly_clim.nc
+  hashes:
+    binhash: e293b411a7a9a22701365950f137043b
+    md5: f0d2d8d42abd31bd4ab7c5c5b5a9d7ff
 work/INPUT/BATS/WOA_column.nc:
   fullpath: /g/data/tm70/ds0092/model/config/om3_M_single-column/INPUT/BATS/WOA_column.nc
   hashes:
-    binhash: 60ae19de1d04e29bd78014cd6c74e48f
+    binhash: 34592f71f5c4d412d77419b8ef9cbb69
     md5: 2c6272a72144372d6201765dbd00bdad
 work/INPUT/BATS/forcing.nc:
   fullpath: /g/data/tm70/ds0092/model/config/om3_M_single-column/INPUT/BATS/forcing.nc
   hashes:
-    binhash: df646f58d94df87266d848361b03c82a
+    binhash: f4d4eae6567509ddbf50ddf2cea7d977
     md5: 4b153f1b8cfdecacf951a7c3245b1fde
 work/INPUT/BATS/forcing_monthly.nc:
   fullpath: /g/data/tm70/ds0092/model/config/om3_M_single-column/INPUT/BATS/forcing_monthly.nc
   hashes:
-    binhash: 209e0f8a55ec8fdb0663c899cb201abf
+    binhash: fab414f64b12efb4716bc194b35fa8aa
     md5: aff544bf84620d941b523ae2055511e0
 work/INPUT/BATS/horizontal_grid.nc:
   fullpath: /g/data/tm70/ds0092/model/config/om3_M_single-column/INPUT/BATS/horizontal_grid.nc
   hashes:
-    binhash: ba86fe4158326f53e77c931e3fb79b10
+    binhash: 4d0184c2bd3412d1c0ad62090a838e93
     md5: c159de197a4f1a515d81997bb193d0b9
 work/INPUT/BATS/itides.nc:
   fullpath: /g/data/tm70/ds0092/model/config/om3_M_single-column/INPUT/BATS/itides.nc
   hashes:
-    binhash: af9de222dc8e27e76dff82a5f7cba822
+    binhash: e96fc6245c7c3c87ef7227bc52d11ebe
     md5: 0e54160b2b25005b709332ec069a8eec
 work/INPUT/BATS/ocean_mosaic.nc:
   fullpath: /g/data/tm70/ds0092/model/config/om3_M_single-column/INPUT/BATS/ocean_mosaic.nc
   hashes:
-    binhash: 1fea3b9f23cb28203b8b051f4237e872
+    binhash: 04ce8b12d4f9b48d4413d0ce7a191d6e
     md5: 09732bc5662fa71eb8489b231905c70e
 work/INPUT/BATS/single-column-ESMFmesh.nc:
   fullpath: /g/data/tm70/ds0092/model/config/om3_M_single-column/INPUT/BATS/single-column-ESMFmesh.nc
   hashes:
-    binhash: 094976bd34dd4f60c70ef5ac483d322c
+    binhash: 53661b2a8e827cef415a6921c0e1f43d
     md5: ddb0b888e731a571d3ee8a53f40ed3bb
 work/INPUT/COARE/ICs.nc:
   fullpath: /g/data/tm70/ds0092/model/config/om3_M_single-column/INPUT/COARE/ICs.nc
   hashes:
-    binhash: 7237f937cb84e004ed5666a49b24f11e
+    binhash: e4e1aec8921988e970efb3fc94f94699
     md5: f64b8fb6dc9c1654179810b55ebbade8
 work/INPUT/COARE/MOM_override:
   fullpath: /g/data/tm70/ds0092/model/config/om3_M_single-column/INPUT/COARE/MOM_override
   hashes:
-    binhash: e6b5e81dec40a4d07ff89be2854d1b47
+    binhash: 89a64ca3341998f47a5756efb57fa986
     md5: 9e02623544050aba8d1e84ff6a183165
 work/INPUT/COARE/WOA_column.nc:
   fullpath: /g/data/tm70/ds0092/model/config/om3_M_single-column/INPUT/COARE/WOA_column.nc
   hashes:
-    binhash: 6449af2116262cd80df0434fc2f2d21b
+    binhash: e7894cc86be328bc47e077fff79c7fb3
     md5: 9faa07cf6b0f8615738f33289e68d499
 work/INPUT/COARE/forcing.nc:
   fullpath: /g/data/tm70/ds0092/model/config/om3_M_single-column/INPUT/COARE/forcing.nc
   hashes:
-    binhash: fbdf455cf6cdf23f2d9467b21db87ccc
+    binhash: 1b649b60d11c475c9edf7c5d22850c88
     md5: 4adc2c73646197e29941522da9e32e6f
 work/INPUT/COARE/forcing_monthly.nc:
   fullpath: /g/data/tm70/ds0092/model/config/om3_M_single-column/INPUT/COARE/forcing_monthly.nc
   hashes:
-    binhash: dbdb5387cf4da2070711ad04c101aa64
+    binhash: 540b5a7ed3b4c5ed6c98a4dc42ae51e9
     md5: e3f4498d4cfe762439951065f580b44e
 work/INPUT/COARE/itides.nc:
   fullpath: /g/data/tm70/ds0092/model/config/om3_M_single-column/INPUT/COARE/itides.nc
   hashes:
-    binhash: 80afc739f358e98313ee43d39c64de20
+    binhash: 9c0f3d5eab831f262c7c231c63dedd1a
     md5: b161921c28d3b8b9b9a6962fea2bf413
 work/INPUT/Chagos/ICs.nc:
   fullpath: /g/data/tm70/ds0092/model/config/om3_M_single-column/INPUT/Chagos/ICs.nc
   hashes:
-    binhash: 323f8e888bd4d688d2f090223b6e5cd7
+    binhash: b2d1d74b931f496a0b6f0b230e9288e4
     md5: c54bbbfd8865ac4df724a69bb7049cdb
 work/INPUT/Chagos/MOM_override:
   fullpath: /g/data/tm70/ds0092/model/config/om3_M_single-column/INPUT/Chagos/MOM_override
   hashes:
-    binhash: e0ea074cac1ce49fb6e44dc4f7a142c7
+    binhash: c8e7e53cbbcf2c9882be7acc7cb6300f
     md5: ba86fca3bce540ebaab0f030aa93b099
 work/INPUT/Chagos/WOA_column.nc:
   fullpath: /g/data/tm70/ds0092/model/config/om3_M_single-column/INPUT/Chagos/WOA_column.nc
   hashes:
-    binhash: 76743659c80bf449d9c787cbfaf4c0ac
+    binhash: 73efc0db40c71e3539f00b4e3b45fabe
     md5: a061b0f37b6404791fb0a40cce5b17df
 work/INPUT/Chagos/forcing.nc:
   fullpath: /g/data/tm70/ds0092/model/config/om3_M_single-column/INPUT/Chagos/forcing.nc
   hashes:
-    binhash: 5616a3e374190c30f2a41e4a1988386c
+    binhash: c88822b3d20f48c19da71c77d79ef749
     md5: 6c4cd8cb5ff818c028f5f0dd7bc7fd96
 work/INPUT/Chagos/forcing_monthly.nc:
   fullpath: /g/data/tm70/ds0092/model/config/om3_M_single-column/INPUT/Chagos/forcing_monthly.nc
   hashes:
-    binhash: a07e2aa946348aa51e2e7ef904bc8ee0
+    binhash: 2f26ac37c311b45643ff62eac973d153
     md5: 4f0228143ac74ef9bc2ee7189b4a0a8b
 work/INPUT/Chagos/itides.nc:
   fullpath: /g/data/tm70/ds0092/model/config/om3_M_single-column/INPUT/Chagos/itides.nc
   hashes:
-    binhash: fb25b7fb66c9eac0e64e2a32cc39b12a
+    binhash: 146b920d24a894c6c235e27976618cd5
     md5: 3d123af9f19130bd028a7f966763980a
 work/INPUT/FEMIP_model_median_iron_2016_fillmiss.nc:
   fullpath: /g/data/vk83/prerelease/configurations/inputs/access-om3/wombat/initial_conditions/share/2021.06.07/FEMIP_model_median_iron_2016_fillmiss.nc
@@ -174,242 +179,242 @@ work/INPUT/JRA55do-drof-ESMFmesh.nc:
 work/INPUT/Kerguelen/ICs.nc:
   fullpath: /g/data/tm70/ds0092/model/config/om3_M_single-column/INPUT/Kerguelen/ICs.nc
   hashes:
-    binhash: ce694bc1192dc5888c59bb35124aab35
+    binhash: 5bcb99cfb3303e1da2759fd936eb54ed
     md5: e7afe0a7a5670c958cc39ef795732526
 work/INPUT/Kerguelen/MOM_override:
   fullpath: /g/data/tm70/ds0092/model/config/om3_M_single-column/INPUT/Kerguelen/MOM_override
   hashes:
-    binhash: 54bf430cae632947231d473ccfa69f4f
+    binhash: 8e4f61a693d197d09446e05c216b9bb0
     md5: d1d73ba43f7c322390931e6eb4ca1eb4
 work/INPUT/Kerguelen/WOA_column.nc:
   fullpath: /g/data/tm70/ds0092/model/config/om3_M_single-column/INPUT/Kerguelen/WOA_column.nc
   hashes:
-    binhash: 60a4095d95f392441de241f99d167010
+    binhash: a9e4a7cad5d966091070b6e2e626ebd5
     md5: 0ed72d87f6bc605cfaaee7f19b3f3446
 work/INPUT/Kerguelen/forcing.nc:
   fullpath: /g/data/tm70/ds0092/model/config/om3_M_single-column/INPUT/Kerguelen/forcing.nc
   hashes:
-    binhash: b318d0d0f68d48b9d1b2a0ad08fde0d7
+    binhash: 148b0942fb618acced6e9cd17e7f20ff
     md5: 782952668c31f80a00542a571237dfbf
 work/INPUT/Kerguelen/forcing_monthly.nc:
   fullpath: /g/data/tm70/ds0092/model/config/om3_M_single-column/INPUT/Kerguelen/forcing_monthly.nc
   hashes:
-    binhash: d6a898fc6f28667f6e0b4eb286aba900
+    binhash: bc700265a51199f940240bce528feba0
     md5: 30d59875654847d8175884913bfccc0f
 work/INPUT/Kerguelen/itides.nc:
   fullpath: /g/data/tm70/ds0092/model/config/om3_M_single-column/INPUT/Kerguelen/itides.nc
   hashes:
-    binhash: 4c0c6afd4cafc50b50ce18379af30b8d
+    binhash: 8717c37597c2bc374595934273dc96aa
     md5: 8a56dd0e7ce2faef183a0f71e9044975
 work/INPUT/Kuroshio/ICs.nc:
   fullpath: /g/data/tm70/ds0092/model/config/om3_M_single-column/INPUT/Kuroshio/ICs.nc
   hashes:
-    binhash: 0086e005af5e2e299a6c00157acefffc
+    binhash: 09eda900b287b9bbc0f504deed578777
     md5: e6758babb3b05b7e78017ff5ec348428
 work/INPUT/Kuroshio/MOM_override:
   fullpath: /g/data/tm70/ds0092/model/config/om3_M_single-column/INPUT/Kuroshio/MOM_override
   hashes:
-    binhash: ebddab707ffad362c6dcef0c0991a98b
+    binhash: f7477a6c8c295f658364d49317d2c31b
     md5: f1d2ebe4ac4a700fa277a6c991e48b74
 work/INPUT/Kuroshio/WOA_column.nc:
   fullpath: /g/data/tm70/ds0092/model/config/om3_M_single-column/INPUT/Kuroshio/WOA_column.nc
   hashes:
-    binhash: 855942bb404705f49bdfd7bfba9072d4
+    binhash: 8db7a9f33f75c01c4de7b61ea9400315
     md5: cde33540dbaad4eb2facb72079028c5b
 work/INPUT/Kuroshio/forcing.nc:
   fullpath: /g/data/tm70/ds0092/model/config/om3_M_single-column/INPUT/Kuroshio/forcing.nc
   hashes:
-    binhash: 17230085da2662e4717f43b7bb4cbd0b
+    binhash: ae92506502c83d0a8b7e887670ad828a
     md5: 6b93c7acca11476f463b7592a525acfa
 work/INPUT/Kuroshio/forcing_monthly.nc:
   fullpath: /g/data/tm70/ds0092/model/config/om3_M_single-column/INPUT/Kuroshio/forcing_monthly.nc
   hashes:
-    binhash: 616a1b3d571eb45219d3173970af906d
+    binhash: 95611973d9339fefff0c800ae602548d
     md5: b48143c780d74c2c31c872be333cff5e
 work/INPUT/Kuroshio/itides.nc:
   fullpath: /g/data/tm70/ds0092/model/config/om3_M_single-column/INPUT/Kuroshio/itides.nc
   hashes:
-    binhash: 8d059fbeb675781997eb061ddfbf8889
+    binhash: 08dda019d49e9570f0869d9094d629c0
     md5: fedff06a5cea1b8ee0836ebe2770d6f2
 work/INPUT/Labrador/ICs.nc:
   fullpath: /g/data/tm70/ds0092/model/config/om3_M_single-column/INPUT/Labrador/ICs.nc
   hashes:
-    binhash: ff7e1bde46d13df896a55b68d1f1db33
+    binhash: c4c30e82153d343f2fdc409b4f841663
     md5: f079a22dd2e613f75a27874ddbc5c980
 work/INPUT/Labrador/MOM_override:
   fullpath: /g/data/tm70/ds0092/model/config/om3_M_single-column/INPUT/Labrador/MOM_override
   hashes:
-    binhash: cfa395a48b62613ee56a6eebe57b7fc7
+    binhash: 0e3db630b3b541f0425d8ba59a0292c0
     md5: 9af099a5a7a6c1db4a2e2c065744911c
 work/INPUT/Labrador/WOA_column.nc:
   fullpath: /g/data/tm70/ds0092/model/config/om3_M_single-column/INPUT/Labrador/WOA_column.nc
   hashes:
-    binhash: aac50fc19d362e4bdfd5b8df0d4dca64
+    binhash: 53e0a5f9867f42917617a4ce9bb2a304
     md5: dcda3f7f03c5ed2060650f2a221403bb
 work/INPUT/Labrador/forcing.nc:
   fullpath: /g/data/tm70/ds0092/model/config/om3_M_single-column/INPUT/Labrador/forcing.nc
   hashes:
-    binhash: 091f21f5df0761ff0b2b9651917cc861
+    binhash: 619212d990f963e90ec52e557cea00ff
     md5: 8bef0408995047bcf070afcdb288b2fd
 work/INPUT/Labrador/forcing_monthly.nc:
   fullpath: /g/data/tm70/ds0092/model/config/om3_M_single-column/INPUT/Labrador/forcing_monthly.nc
   hashes:
-    binhash: 1c711bde4a520fa40dbe8f4e4954bc0d
+    binhash: 8c5daab7125040cc15c5f29a16c1bdca
     md5: cae6b41d4104e2d8a8a4dbbb3faa66c9
 work/INPUT/Labrador/itides.nc:
   fullpath: /g/data/tm70/ds0092/model/config/om3_M_single-column/INPUT/Labrador/itides.nc
   hashes:
-    binhash: a386aecbf7b7edbfae84e4b3ad38bbff
+    binhash: b5f37e5c0d12cb00c85bfb60d41f9591
     md5: 9e982a1a910c041c3c2700299ce01231
 work/INPUT/Mariana/ICs.nc:
   fullpath: /g/data/tm70/ds0092/model/config/om3_M_single-column/INPUT/Mariana/ICs.nc
   hashes:
-    binhash: 7f034b26003208e6d60f11f1b3107672
+    binhash: f6854c3ab904c44d3aacb8f3f2b6b3e7
     md5: 219b47a73f9e72776a06cb538c8a94dc
 work/INPUT/Mariana/MOM_override:
   fullpath: /g/data/tm70/ds0092/model/config/om3_M_single-column/INPUT/Mariana/MOM_override
   hashes:
-    binhash: 7c830c1ba2598b98419e438a9604e9f8
+    binhash: b0b4ebcf9d1cee02ec627fb08da765cb
     md5: 6da42eb070f46c8e7fb28056afc42c98
 work/INPUT/Mariana/WOA_column.nc:
   fullpath: /g/data/tm70/ds0092/model/config/om3_M_single-column/INPUT/Mariana/WOA_column.nc
   hashes:
-    binhash: f2e1e50597b2e7c177cc0895b5fd343a
+    binhash: b068f731bfdacba50cdbd890f4680c26
     md5: f2e3c6784bf9e3dd64f584e02c19b97a
 work/INPUT/Mariana/forcing.nc:
   fullpath: /g/data/tm70/ds0092/model/config/om3_M_single-column/INPUT/Mariana/forcing.nc
   hashes:
-    binhash: cb47388c3bb494ff1b3058829b747359
+    binhash: d45f8569f72816dbc2f83b970179161b
     md5: 9b30e3dbef67bee5e0e7db89a8ab33bc
 work/INPUT/Mariana/forcing_monthly.nc:
   fullpath: /g/data/tm70/ds0092/model/config/om3_M_single-column/INPUT/Mariana/forcing_monthly.nc
   hashes:
-    binhash: d95d11d5821fb3876e17d01f2f2b1606
+    binhash: c7a2c1117a629579230b4e0815a6a027
     md5: 065c93001e3a30bbeb3482a3ee643eee
 work/INPUT/Mariana/itides.nc:
   fullpath: /g/data/tm70/ds0092/model/config/om3_M_single-column/INPUT/Mariana/itides.nc
   hashes:
-    binhash: 012b3d1c6f6247c16a18c1a761ae8bfd
+    binhash: 64ab918a603e61c8184cb9bf334d82e3
     md5: bfceff4ed8c43defe7506f659d16ecb6
 work/INPUT/Nazca/ICs.nc:
   fullpath: /g/data/tm70/ds0092/model/config/om3_M_single-column/INPUT/Nazca/ICs.nc
   hashes:
-    binhash: eac8556d3c4af5d613e99d71ce4cbdb8
+    binhash: 5f6d481722ad7e0da3e95d6dbad8f40c
     md5: 5d90f2ab0edc1dd5e8d6e88aa5c1902c
 work/INPUT/Nazca/MOM_override:
   fullpath: /g/data/tm70/ds0092/model/config/om3_M_single-column/INPUT/Nazca/MOM_override
   hashes:
-    binhash: 9cfb766d06d01b1eeb0c9d9b480ffa03
+    binhash: 8fcadfeef954614f4f78e65e1b847232
     md5: 721c554dc398535bcfe122bcb5e0b9e3
 work/INPUT/Nazca/WOA_column.nc:
   fullpath: /g/data/tm70/ds0092/model/config/om3_M_single-column/INPUT/Nazca/WOA_column.nc
   hashes:
-    binhash: ac245983d2120250a12fa1982f914da3
+    binhash: 42444ef17c939054a7c133add71f25a1
     md5: 01f1a44ebd5ab4a123dc975a9d23c93e
 work/INPUT/Nazca/forcing.nc:
   fullpath: /g/data/tm70/ds0092/model/config/om3_M_single-column/INPUT/Nazca/forcing.nc
   hashes:
-    binhash: 05507a3db512bd098499db94c558159a
+    binhash: f60c3590184f36a21d7ce605027870f6
     md5: 34b0b4c26303f30681bebfb26ded9128
 work/INPUT/Nazca/forcing_monthly.nc:
   fullpath: /g/data/tm70/ds0092/model/config/om3_M_single-column/INPUT/Nazca/forcing_monthly.nc
   hashes:
-    binhash: 40ddb26d2d93e0725ef14eccc0852001
+    binhash: af47e5dae691c9c1e8d97b9d6b2cdbf4
     md5: 115641dcc05f43e3440bec9557cf9e9b
 work/INPUT/Nazca/itides.nc:
   fullpath: /g/data/tm70/ds0092/model/config/om3_M_single-column/INPUT/Nazca/itides.nc
   hashes:
-    binhash: 5507f56e4670d0fd993d9b809f3c3d5c
+    binhash: af6b0e4b4976e6988a078f5d5b57f36b
     md5: e29fe210114421f767e46a13b6cf3643
 work/INPUT/Nino/ICs.nc:
   fullpath: /g/data/tm70/ds0092/model/config/om3_M_single-column/INPUT/Nino/ICs.nc
   hashes:
-    binhash: 466da8a0e3f4f37d1c4df3c9f48f80ec
+    binhash: b879e3977c3e7e96ab5df0034d5f4b0c
     md5: 9e0bb99cc1b6fdad5e0faf05d22d26b3
 work/INPUT/Nino/MOM_override:
   fullpath: /g/data/tm70/ds0092/model/config/om3_M_single-column/INPUT/Nino/MOM_override
   hashes:
-    binhash: ae234be40a10767f9332d152d0436947
+    binhash: f88c21a225d68967fc3fc8aa3ed1e094
     md5: a28a9e657a988c2a91f616bc9ae2adf7
 work/INPUT/Nino/WOA_column.nc:
   fullpath: /g/data/tm70/ds0092/model/config/om3_M_single-column/INPUT/Nino/WOA_column.nc
   hashes:
-    binhash: a13847201b42a902d11b47f39a6f36a4
+    binhash: 36e3ac46f000c84d7d03ee493b43f23c
     md5: 6c95778a662b6410a4941a838eb02e6d
 work/INPUT/Nino/forcing.nc:
   fullpath: /g/data/tm70/ds0092/model/config/om3_M_single-column/INPUT/Nino/forcing.nc
   hashes:
-    binhash: dacff7b9ec185af7a7547d84a2e629a6
+    binhash: 40d49f29780744dea2c03038ed657a14
     md5: af69fc27a9f679497282cc6636c4ac67
 work/INPUT/Nino/forcing_monthly.nc:
   fullpath: /g/data/tm70/ds0092/model/config/om3_M_single-column/INPUT/Nino/forcing_monthly.nc
   hashes:
-    binhash: 1a0b8df3d61457fc12c102af47b172e5
+    binhash: 0141cd64931f4d62a6ce8ecbdf284b83
     md5: 4359aab9ca1049d59fc85a65cfcaca06
 work/INPUT/Nino/itides.nc:
   fullpath: /g/data/tm70/ds0092/model/config/om3_M_single-column/INPUT/Nino/itides.nc
   hashes:
-    binhash: a45935f4ab5b9fb2ad2be8fc25240bd2
+    binhash: 1dae490055c840e21af971593237b61a
     md5: af09e90ee79318ffd59b0e58790557fe
 work/INPUT/Norwegian/ICs.nc:
   fullpath: /g/data/tm70/ds0092/model/config/om3_M_single-column/INPUT/Norwegian/ICs.nc
   hashes:
-    binhash: 0f8a0a3d6ca4e210afc8b4853523c808
+    binhash: e323bd358089f7136b2936b1bdd1eb6a
     md5: 3fed59f2dee08a8d79a0545bf369c060
 work/INPUT/Norwegian/MOM_override:
   fullpath: /g/data/tm70/ds0092/model/config/om3_M_single-column/INPUT/Norwegian/MOM_override
   hashes:
-    binhash: a58a787d68dcc7fbe5e1d409e99f4e7d
+    binhash: 84f7e1e7bc6f019a43c6465f3b80bad5
     md5: d454cb17f2bc8818139ab11c60ec72ed
 work/INPUT/Norwegian/WOA_column.nc:
   fullpath: /g/data/tm70/ds0092/model/config/om3_M_single-column/INPUT/Norwegian/WOA_column.nc
   hashes:
-    binhash: ccc6814b165d3832b74062890490fffa
+    binhash: 135552a34e66e009a361b17ad8a7dc46
     md5: 2dcb415ff2f825286f134f438e697349
 work/INPUT/Norwegian/forcing.nc:
   fullpath: /g/data/tm70/ds0092/model/config/om3_M_single-column/INPUT/Norwegian/forcing.nc
   hashes:
-    binhash: e05c364eb307cfcaa6cfe3697a396ae7
+    binhash: ccf6ce604fbff12188d4a87d6787f41d
     md5: f0fd8ed93cb361ce3bf4c937725ac93b
 work/INPUT/Norwegian/forcing_monthly.nc:
   fullpath: /g/data/tm70/ds0092/model/config/om3_M_single-column/INPUT/Norwegian/forcing_monthly.nc
   hashes:
-    binhash: 27f4756fc632740c302811caade5ad4f
+    binhash: 93d800442ec535859faff64bcb4ddfcc
     md5: 1500793644cc96fe7cbe6b603c8b90cf
 work/INPUT/Norwegian/itides.nc:
   fullpath: /g/data/tm70/ds0092/model/config/om3_M_single-column/INPUT/Norwegian/itides.nc
   hashes:
-    binhash: be440cf9263bd612d4d8f806e9f3eb18
+    binhash: eba05343132383481925c248744f541b
     md5: f62e52bbb78e12bf134aea70c8cb0004
 work/INPUT/PAPA/ICs.nc:
   fullpath: /g/data/tm70/ds0092/model/config/om3_M_single-column/INPUT/PAPA/ICs.nc
   hashes:
-    binhash: c2addba41e6161ad3fa86174955b60a9
+    binhash: 65c75c7625d630d932f32c7e645c8133
     md5: 72f64896ca9b53645b94b0566559c506
 work/INPUT/PAPA/MOM_override:
   fullpath: /g/data/tm70/ds0092/model/config/om3_M_single-column/INPUT/PAPA/MOM_override
   hashes:
-    binhash: 9b65b9111d81f41ca1eaca97104faea4
+    binhash: 4fc88006d325117620323178ecc214d8
     md5: 8e1c42f2f98219489992585e431a54d8
 work/INPUT/PAPA/WOA_column.nc:
   fullpath: /g/data/tm70/ds0092/model/config/om3_M_single-column/INPUT/PAPA/WOA_column.nc
   hashes:
-    binhash: 04ae4b4e419ac84478333dba5f69e715
+    binhash: 0925b7e314da4ed511d5f248cd0bfe53
     md5: 0e2871948cf6a63a7407995752071499
 work/INPUT/PAPA/forcing.nc:
   fullpath: /g/data/tm70/ds0092/model/config/om3_M_single-column/INPUT/PAPA/forcing.nc
   hashes:
-    binhash: fdd3e8f40d0eab5d136e397d559fb1d6
+    binhash: 500c247465b90423648345bdead0a5a2
     md5: 3e7e46fee6d7a45ae040aa7763240a0c
 work/INPUT/PAPA/forcing_monthly.nc:
   fullpath: /g/data/tm70/ds0092/model/config/om3_M_single-column/INPUT/PAPA/forcing_monthly.nc
   hashes:
-    binhash: 1d04b3713234032fde384c5af00fca3b
+    binhash: ec52c72cee2277b65dcb0020aff72d96
     md5: 08c6f8d294f149a53256928d84f17bfc
 work/INPUT/PAPA/itides.nc:
   fullpath: /g/data/tm70/ds0092/model/config/om3_M_single-column/INPUT/PAPA/itides.nc
   hashes:
-    binhash: bcea15cd475ed6c6935e1adc095f9905
+    binhash: 0bb413caaee392b92c63f0ad01c3baf6
     md5: cf5a78970e9cb5761310b03fbfc54fec
 work/INPUT/RYF.friver.1990_1991.nc:
   fullpath: /g/data/vk83/prerelease/configurations/inputs/JRA-55/RYF/v1-6/2026.04.15/RYF.friver.1990_1991.nc
@@ -466,100 +471,105 @@ work/INPUT/RYF.vas.1990_1991.nc:
   hashes:
     binhash: 32c97e6ab7f375008a45dbd3dae259f8
     md5: bd0ccd8ef7f639ca77b6705f0d6d1fcb
+work/INPUT/SFe_Hamiltonetal2020_monthly_clim.nc:
+  fullpath: /g/data/tm70/ds0092/model/config/om3_M_single-column/INPUT/SFe_Hamiltonetal2020_monthly_clim.nc
+  hashes:
+    binhash: e293b411a7a9a22701365950f137043b
+    md5: f0d2d8d42abd31bd4ab7c5c5b5a9d7ff
 work/INPUT/St_Peter_Rock/ICs.nc:
   fullpath: /g/data/tm70/ds0092/model/config/om3_M_single-column/INPUT/St_Peter_Rock/ICs.nc
   hashes:
-    binhash: 15f2425cd9c25c6f8fea90f5be098b41
+    binhash: c4fa4091a15a819de0f87e5bd5de75b7
     md5: 098c9d11316ce5475e9aee16d1ca153e
 work/INPUT/St_Peter_Rock/MOM_override:
   fullpath: /g/data/tm70/ds0092/model/config/om3_M_single-column/INPUT/St_Peter_Rock/MOM_override
   hashes:
-    binhash: 437c9065025043d7fc702a88f6cd9c9d
+    binhash: f2090f6ee1eec9d7e54890c84f15ea1c
     md5: 9bf12cfee709060d49f027766939963f
 work/INPUT/St_Peter_Rock/WOA_column.nc:
   fullpath: /g/data/tm70/ds0092/model/config/om3_M_single-column/INPUT/St_Peter_Rock/WOA_column.nc
   hashes:
-    binhash: f540789953132b3d1da5443cb834744b
+    binhash: 7c53cc533ae3566c663752f773ab7c2c
     md5: c9ed33533968ed91f44e94989372b18b
 work/INPUT/St_Peter_Rock/forcing.nc:
   fullpath: /g/data/tm70/ds0092/model/config/om3_M_single-column/INPUT/St_Peter_Rock/forcing.nc
   hashes:
-    binhash: 98df0147f5af08cabd206dbe2fe9b9d8
+    binhash: 3fa04d5eb0d92f979ec15a7c7ea69ad1
     md5: c0742cedb3b90f37b709f43ee7a4b490
 work/INPUT/St_Peter_Rock/forcing_monthly.nc:
   fullpath: /g/data/tm70/ds0092/model/config/om3_M_single-column/INPUT/St_Peter_Rock/forcing_monthly.nc
   hashes:
-    binhash: 5ad362d5fe7d7e04fa8ea9fe5ad8f96b
+    binhash: b72f583bccde18905bee58d6546e9fa2
     md5: c3bb4404f9a4ebef027697238f644970
 work/INPUT/St_Peter_Rock/itides.nc:
   fullpath: /g/data/tm70/ds0092/model/config/om3_M_single-column/INPUT/St_Peter_Rock/itides.nc
   hashes:
-    binhash: ba03c3172fe9fc486ef66c87eeef637e
+    binhash: 9d91d1b0af3dba930f468d8e1d716d80
     md5: a5145125b9a181835ec13f9593b08c61
 work/INPUT/Walvis/ICs.nc:
   fullpath: /g/data/tm70/ds0092/model/config/om3_M_single-column/INPUT/Walvis/ICs.nc
   hashes:
-    binhash: f516416888a32ca3c592addd28223dc9
+    binhash: e1c7f504c899a15d47f6f79a4bbf4938
     md5: 1bcb5b9b62ec4e5470172aedb8b1a9db
 work/INPUT/Walvis/MOM_override:
   fullpath: /g/data/tm70/ds0092/model/config/om3_M_single-column/INPUT/Walvis/MOM_override
   hashes:
-    binhash: deb1767e9c45ae61e10a78533b8a1d27
+    binhash: 34ac10252f8b5fb62600275fb96bd04b
     md5: bbdbc6bcbb2c82d8675e9996fe1586ab
 work/INPUT/Walvis/WOA_column.nc:
   fullpath: /g/data/tm70/ds0092/model/config/om3_M_single-column/INPUT/Walvis/WOA_column.nc
   hashes:
-    binhash: c696b1e1eed4cb57580e80e938460ad3
+    binhash: 17bf419218e5fc308d2f068d8305bdc1
     md5: 7223550a7c1928aa1d16374d872512c2
 work/INPUT/Walvis/forcing.nc:
   fullpath: /g/data/tm70/ds0092/model/config/om3_M_single-column/INPUT/Walvis/forcing.nc
   hashes:
-    binhash: cec153d032fcf41ba9a84d4834a837ba
+    binhash: 3a5d0ade5a82a877797e9248868a2ebc
     md5: d8d857e37be439bf305e898641cc2564
 work/INPUT/Walvis/forcing_monthly.nc:
   fullpath: /g/data/tm70/ds0092/model/config/om3_M_single-column/INPUT/Walvis/forcing_monthly.nc
   hashes:
-    binhash: 1d0f7faa7150c309cb5c97353fff799c
+    binhash: 6fa43c6490f83747c3bb4e1d7d894078
     md5: 20bb45262ad32c5f4e59ac262bce6e37
 work/INPUT/Walvis/itides.nc:
   fullpath: /g/data/tm70/ds0092/model/config/om3_M_single-column/INPUT/Walvis/itides.nc
   hashes:
-    binhash: 4c7c1d7c09c4fe7ebcb272b638065b64
+    binhash: 140df055a17bf69151e996b928ff7690
     md5: 88eb9574cc0ea88bc17d61092ac9d1c2
 work/INPUT/Weddell/ICs.nc:
   fullpath: /g/data/tm70/ds0092/model/config/om3_M_single-column/INPUT/Weddell/ICs.nc
   hashes:
-    binhash: 4e1fffd0da973afacffa274f8ae8d9a2
+    binhash: c1dd1a892645d02123083aafc1b48a69
     md5: cef642acf6111ed4f059a8dc2f11a481
 work/INPUT/Weddell/MOM_override:
   fullpath: /g/data/tm70/ds0092/model/config/om3_M_single-column/INPUT/Weddell/MOM_override
   hashes:
-    binhash: aa30bbe92f74166e2751a41aa4f32143
+    binhash: 7fc9c844f751a5b08e5b4c6b52cf9a3a
     md5: 1522588ace43b88bf85aa0ddb82e189d
 work/INPUT/Weddell/WOA_column.nc:
   fullpath: /g/data/tm70/ds0092/model/config/om3_M_single-column/INPUT/Weddell/WOA_column.nc
   hashes:
-    binhash: 0129e9b17392b8b03d7600feb91710d2
+    binhash: 316d3b03a70da260541b69c947ef8d82
     md5: 88f27ffd536a5b787fbe4624d44e5519
 work/INPUT/Weddell/forcing.nc:
   fullpath: /g/data/tm70/ds0092/model/config/om3_M_single-column/INPUT/Weddell/forcing.nc
   hashes:
-    binhash: 0bd03e4065b429db1a87be8b7ffd4a5e
+    binhash: 3166a59478560f42ed327d28acaf2ebd
     md5: 4fc06b0ec5b7fe524ef16fd69aaa4c6d
 work/INPUT/Weddell/forcing_monthly.nc:
   fullpath: /g/data/tm70/ds0092/model/config/om3_M_single-column/INPUT/Weddell/forcing_monthly.nc
   hashes:
-    binhash: c45f1e98fa12fb64b6e328bb341f0bf7
+    binhash: 1efad7c413f1e723e1bb2b1d83a708ee
     md5: e8ce21c793622d39617dc2d8e17c5978
 work/INPUT/Weddell/itides.nc:
   fullpath: /g/data/tm70/ds0092/model/config/om3_M_single-column/INPUT/Weddell/itides.nc
   hashes:
-    binhash: e645b58513b86b8d876804a143c94b9d
+    binhash: ea1f75bf42c8c983c19e7ea797e3cd2f
     md5: 0f0cc753e734002070033a108ea51e7b
 work/INPUT/create_data.m:
   fullpath: /g/data/tm70/ds0092/model/config/om3_M_single-column/INPUT/create_data.m
   hashes:
-    binhash: 4301e590eed9f0717fa02b2fc3e7c6d5
+    binhash: 3f2d8badc42e67345dc0c061bd48b104
     md5: 6c5a113b1da0049e97927bd2b75957f2
 work/INPUT/grid_spec.nc:
   fullpath: /g/data/vk83/prerelease/configurations/inputs/access-om3/mom/grids/mosaic/share/2024.05.08/grid_spec.nc
@@ -569,7 +579,7 @@ work/INPUT/grid_spec.nc:
 work/INPUT/horizontal_grid.nc:
   fullpath: /g/data/tm70/ds0092/model/config/om3_M_single-column/INPUT/horizontal_grid.nc
   hashes:
-    binhash: ba86fe4158326f53e77c931e3fb79b10
+    binhash: 4d0184c2bd3412d1c0ad62090a838e93
     md5: c159de197a4f1a515d81997bb193d0b9
 work/INPUT/init_ocean_wombatlite.res.nc:
   fullpath: /g/data/vk83/prerelease/configurations/inputs/access-om3/wombat/initial_conditions/global.100km/2025.06.06/init_ocean_wombatlite.res.nc
@@ -579,40 +589,40 @@ work/INPUT/init_ocean_wombatlite.res.nc:
 work/INPUT/isopyc_coords.nc:
   fullpath: /g/data/tm70/ds0092/model/config/om3_M_single-column/INPUT/isopyc_coords.nc
   hashes:
-    binhash: 2fd8421f986b85fc1cdb17d8e6a7ee93
+    binhash: 6c827e25229c1bcd976ea10cee310260
     md5: 1aa5b64c107e22ee69d6f3a84646db9c
 work/INPUT/ocean_mosaic.nc:
   fullpath: /g/data/tm70/ds0092/model/config/om3_M_single-column/INPUT/ocean_mosaic.nc
   hashes:
-    binhash: 1fea3b9f23cb28203b8b051f4237e872
+    binhash: 04ce8b12d4f9b48d4413d0ce7a191d6e
     md5: 09732bc5662fa71eb8489b231905c70e
 work/INPUT/single-column-ESMFmesh.nc:
   fullpath: /g/data/tm70/ds0092/model/config/om3_M_single-column/INPUT/single-column-ESMFmesh.nc
   hashes:
-    binhash: 094976bd34dd4f60c70ef5ac483d322c
+    binhash: 53661b2a8e827cef415a6921c0e1f43d
     md5: ddb0b888e731a571d3ee8a53f40ed3bb
 work/INPUT/vgrid_cm4.nc:
   fullpath: /g/data/tm70/ds0092/model/config/om3_M_single-column/INPUT/vgrid_cm4.nc
   hashes:
-    binhash: aa79b99905dd40fbf7d99e2a66295254
+    binhash: 61589d12da8069dc23ef156f7cb164cc
     md5: 7bc58519c59fe2ac0d32ef420ef3b28a
 work/INPUT/vgrid_cm4_10.nc:
   fullpath: /g/data/tm70/ds0092/model/config/om3_M_single-column/INPUT/vgrid_cm4_10.nc
   hashes:
-    binhash: d9568801120d237460614e2ccecb2cab
+    binhash: 094d6d68cac6f5b35565a9b1e8091b01
     md5: 6c8598994152d29e831ef3873666873d
 work/INPUT/vgrid_cm4_4.nc:
   fullpath: /g/data/tm70/ds0092/model/config/om3_M_single-column/INPUT/vgrid_cm4_4.nc
   hashes:
-    binhash: 0878b69c550531634c20f0fd43d2be67
+    binhash: 872352452f6819c6aa0abaeff278017c
     md5: 35caf8a476ec8820ea28b43ade9c90db
 work/INPUT/zgrid.cdl:
   fullpath: /g/data/tm70/ds0092/model/config/om3_M_single-column/INPUT/zgrid.cdl
   hashes:
-    binhash: 7cf0b911a21c37dd2ca9c60b1b4c0e27
+    binhash: 69e083b3e200d4f7e34727a669b5e6be
     md5: 2a68a25c3a7804a06698e7039ff078c1
 work/INPUT/zgrid.nc:
   fullpath: /g/data/tm70/ds0092/model/config/om3_M_single-column/INPUT/zgrid.nc
   hashes:
-    binhash: a1748920f2ad806ae8224ff4a49c3e5c
+    binhash: 4137402083d7a29103321e8a6b51c9e2
     md5: 371557be6295512406966c36ecd03cc2
