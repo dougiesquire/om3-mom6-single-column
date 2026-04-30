@@ -65,12 +65,18 @@ To set up a new domain, or allow an existing one (example shown for existing BAT
   $ python3 /g/data/vk83/apps/om3-scripts/mesh_generation/generate_mesh.py --grid-type=mom --grid-filename=./horizontal_grid.nc --mesh-filename=./single-column-ESMFmesh.nc --wrap-lons=True
   ```
 
+5. Generate the WOMBAT sFe forcing file:
+  ```bash
+  $ python3 /g/data/vk83/apps/om3-scripts/wombat_ic_generation/regrid_forcing.py --forcing-filename=/g/data/ik11/inputs/WOMBAT/CESM-MIMI_1980-2015_CAM4-6MEAN_MonthlyDep_Hamiltonetal2020_clim.nc --hgrid-filename=./horizontal_grid.nc --output-filename=./SFe_Hamiltonetal2020_monthly_clim.nc --homogenize
+  ```
+
 6. Symlink to the region-specific files in the INPUT dir:
   ```bash
   $ cd ../
   $ ln -s ./BATS/horizontal_grid.nc
   $ ln -s ./BATS/ocean_mosaic.nc
   $ ln -s ./BATS/single-column-ESMFmesh.nc
+  $ ln -s ./BATS/SFe_Hamiltonetal2020_monthly_clim.nc
   ```
 
 Unfortunately, we cannot use `MOM_input::GRID_CONFIG = "mosiac"` without changing the size
