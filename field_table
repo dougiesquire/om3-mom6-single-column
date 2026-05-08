@@ -1,9 +1,9 @@
-# WOMBATlite field table
+# WOMBATmid field table
 # ===============================================
-"namelists","ocean_mod","generic_wombatlite/*global*"
+"namelists","ocean_mod","generic_wombatmid/*global*"
 /
-"namelists","ocean_mod","generic_wombatlite"
-no3_src_file = INPUT/wombatlite_ic.nc
+"namelists","ocean_mod","generic_wombatmid"
+no3_src_file = INPUT/wombatmid_ic.nc
 no3_src_var_name = no3
 no3_src_var_unit = none
 no3_dest_var_name = no3
@@ -12,7 +12,25 @@ no3_src_var_record = 1
 no3_src_var_gridspec = NONE
 no3_valid_min = 0.0
 #
-phy_src_file = INPUT/wombatlite_ic.nc
+nh4_src_file = INPUT/wombatmid_ic.nc
+nh4_src_var_name = nh4
+nh4_src_var_unit = none
+nh4_dest_var_name = nh4
+nh4_dest_var_unit = mol kg-1
+nh4_src_var_record = 1
+nh4_src_var_gridspec = NONE
+nh4_valid_min = 0.0
+#
+sil_src_file = INPUT/wombatmid_ic.nc
+sil_src_var_name = sil
+sil_src_var_unit = none
+sil_dest_var_name = sil
+sil_dest_var_unit = mol kg-1
+sil_src_var_record = 1
+sil_src_var_gridspec = NONE
+sil_valid_min = 0.0
+#
+phy_src_file = INPUT/wombatmid_ic.nc
 phy_src_var_name = phy
 phy_src_var_unit = none
 phy_dest_var_name = phy
@@ -21,115 +39,7 @@ phy_src_var_record = 1
 phy_src_var_gridspec = NONE
 phy_valid_min = 0.0
 #
-phyfe_src_file = INPUT/wombatlite_ic.nc
-phyfe_src_var_name = phyfe
-phyfe_src_var_unit = none
-phyfe_dest_var_name = phyfe
-phyfe_dest_var_unit = mol kg-1
-phyfe_src_var_record = 1
-phyfe_src_var_gridspec = NONE
-phyfe_valid_min = 0.0
-#
-o2_src_file = INPUT/wombatlite_ic.nc
-o2_src_var_name = o2
-o2_src_var_unit = none
-o2_dest_var_name = o2
-o2_dest_var_unit = mol kg-1
-o2_src_var_record = 1
-o2_src_var_gridspec = NONE
-o2_valid_min = 0.0
-#
-zoo_src_file = INPUT/wombatlite_ic.nc
-zoo_src_var_name = zoo
-zoo_src_var_unit = none
-zoo_dest_var_name = zoo
-zoo_dest_var_unit = mol kg-1
-zoo_src_var_record = 1
-zoo_src_var_gridspec = NONE
-zoo_valid_min = 0.0
-#
-zoofe_src_file = INPUT/wombatlite_ic.nc
-zoofe_src_var_name = zoofe
-zoofe_src_var_unit = none
-zoofe_dest_var_name = zoofe
-zoofe_dest_var_unit = mol kg-1
-zoofe_src_var_record = 1
-zoofe_src_var_gridspec = NONE
-zoofe_valid_min = 0.0
-#
-det_src_file = INPUT/wombatlite_ic.nc
-det_src_var_name = det
-det_src_var_unit = none
-det_dest_var_name = det
-det_dest_var_unit = mol kg-1
-det_src_var_record = 1
-det_src_var_gridspec = NONE
-det_valid_min = 0.0
-#
-detfe_src_file = INPUT/wombatlite_ic.nc
-detfe_src_var_name = detfe
-detfe_src_var_unit = none
-detfe_dest_var_name = detfe
-detfe_dest_var_unit = mol kg-1
-detfe_src_var_record = 1
-detfe_src_var_gridspec = NONE
-detfe_valid_min = 0.0
-#
-caco3_src_file = INPUT/wombatlite_ic.nc
-caco3_src_var_name = caco3
-caco3_src_var_unit = none
-caco3_dest_var_name = caco3
-caco3_dest_var_unit = mol kg-1
-caco3_src_var_record = 1
-caco3_src_var_gridspec = NONE
-caco3_valid_min = 0.0
-#
-dic_src_file = INPUT/wombatlite_ic.nc
-dic_src_var_name = dic
-dic_src_var_unit = none
-dic_dest_var_name = dic
-dic_dest_var_unit = mol kg-1
-dic_src_var_record = 1
-dic_src_var_gridspec = NONE
-dic_valid_min = 0.0
-#
-dicp_src_file = INPUT/wombatlite_ic.nc
-dicp_src_var_name = dicp
-dicp_src_var_unit = none
-dicp_dest_var_name = dicp
-dicp_dest_var_unit = mol kg-1
-dicp_src_var_record = 1
-dicp_src_var_gridspec = NONE
-dicp_valid_min = 0.0
-#
-dicr_src_file = INPUT/wombatlite_ic.nc
-dicr_src_var_name = dicr
-dicr_src_var_unit = none
-dicr_dest_var_name = dicr
-dicr_dest_var_unit = mol kg-1
-dicr_src_var_record = 1
-dicr_src_var_gridspec = NONE
-dicr_valid_min = 0.0
-#
-alk_src_file = INPUT/wombatlite_ic.nc
-alk_src_var_name = alk
-alk_src_var_unit = none
-alk_dest_var_name = alk
-alk_dest_var_unit = mol kg-1
-alk_src_var_record = 1
-alk_src_var_gridspec = NONE
-alk_valid_min = 0.0
-#
-fe_src_file = INPUT/wombatlite_ic.nc
-fe_src_var_name = fe
-fe_src_var_unit = none
-fe_dest_var_name = fe
-fe_dest_var_unit = mol kg-1
-fe_src_var_record = 1
-fe_src_var_gridspec = NONE
-fe_valid_min = 0.0
-#
-pchl_src_file = INPUT/wombatlite_ic.nc
+pchl_src_file = INPUT/wombatmid_ic.nc
 pchl_src_var_name = pchl
 pchl_src_var_unit = none
 pchl_dest_var_name = pchl
@@ -138,16 +48,277 @@ pchl_src_var_record = 1
 pchl_src_var_gridspec = NONE
 pchl_valid_min = 0.0
 #
-caco3_sediment_src_file = INPUT/wombatlite_ic.nc
-caco3_sediment_src_var_name = caco3_sediment
-caco3_sediment_src_var_unit = none
-caco3_sediment_dest_var_name = caco3_sediment
-caco3_sediment_dest_var_unit = mol m-2
-caco3_sediment_src_var_record = 1
-caco3_sediment_src_var_gridspec = NONE
-caco3_sediment_valid_min = 0.0
+phyfe_src_file = INPUT/wombatmid_ic.nc
+phyfe_src_var_name = phyfe
+phyfe_src_var_unit = none
+phyfe_dest_var_name = phyfe
+phyfe_dest_var_unit = mol kg-1
+phyfe_src_var_record = 1
+phyfe_src_var_gridspec = NONE
+phyfe_valid_min = 0.0
 #
-det_sediment_src_file = INPUT/wombatlite_ic.nc
+dia_src_file = INPUT/wombatmid_ic.nc
+dia_src_var_name = dia
+dia_src_var_unit = none
+dia_dest_var_name = dia
+dia_dest_var_unit = mol kg-1
+dia_src_var_record = 1
+dia_src_var_gridspec = NONE
+dia_valid_min = 0.0
+#
+dchl_src_file = INPUT/wombatmid_ic.nc
+dchl_src_var_name = dchl
+dchl_src_var_unit = none
+dchl_dest_var_name = dchl
+dchl_dest_var_unit = mol kg-1
+dchl_src_var_record = 1
+dchl_src_var_gridspec = NONE
+dchl_valid_min = 0.0
+#
+diafe_src_file = INPUT/wombatmid_ic.nc
+diafe_src_var_name = diafe
+diafe_src_var_unit = none
+diafe_dest_var_name = diafe
+diafe_dest_var_unit = mol kg-1
+diafe_src_var_record = 1
+diafe_src_var_gridspec = NONE
+diafe_valid_min = 0.0
+#
+diasi_src_file = INPUT/wombatmid_ic.nc
+diasi_src_var_name = diasi
+diasi_src_var_unit = none
+diasi_dest_var_name = diasi
+diasi_dest_var_unit = mol kg-1
+diasi_src_var_record = 1
+diasi_src_var_gridspec = NONE
+diasi_valid_min = 0.0
+#
+o2_src_file = INPUT/wombatmid_ic.nc
+o2_src_var_name = o2
+o2_src_var_unit = none
+o2_dest_var_name = o2
+o2_dest_var_unit = mol kg-1
+o2_src_var_record = 1
+o2_src_var_gridspec = NONE
+o2_valid_min = 0.0
+#
+zoo_src_file = INPUT/wombatmid_ic.nc
+zoo_src_var_name = zoo
+zoo_src_var_unit = none
+zoo_dest_var_name = zoo
+zoo_dest_var_unit = mol kg-1
+zoo_src_var_record = 1
+zoo_src_var_gridspec = NONE
+zoo_valid_min = 0.0
+#
+zoofe_src_file = INPUT/wombatmid_ic.nc
+zoofe_src_var_name = zoofe
+zoofe_src_var_unit = none
+zoofe_dest_var_name = zoofe
+zoofe_dest_var_unit = mol kg-1
+zoofe_src_var_record = 1
+zoofe_src_var_gridspec = NONE
+zoofe_valid_min = 0.0
+#
+mes_src_file = INPUT/wombatmid_ic.nc
+mes_src_var_name = mes
+mes_src_var_unit = none
+mes_dest_var_name = mes
+mes_dest_var_unit = mol kg-1
+mes_src_var_record = 1
+mes_src_var_gridspec = NONE
+mes_valid_min = 0.0
+#
+mesfe_src_file = INPUT/wombatmid_ic.nc
+mesfe_src_var_name = mesfe
+mesfe_src_var_unit = none
+mesfe_dest_var_name = mesfe
+mesfe_dest_var_unit = mol kg-1
+mesfe_src_var_record = 1
+mesfe_src_var_gridspec = NONE
+mesfe_valid_min = 0.0
+#
+det_src_file = INPUT/wombatmid_ic.nc
+det_src_var_name = det
+det_src_var_unit = none
+det_dest_var_name = det
+det_dest_var_unit = mol kg-1
+det_src_var_record = 1
+det_src_var_gridspec = NONE
+det_valid_min = 0.0
+#
+detfe_src_file = INPUT/wombatmid_ic.nc
+detfe_src_var_name = detfe
+detfe_src_var_unit = none
+detfe_dest_var_name = detfe
+detfe_dest_var_unit = mol kg-1
+detfe_src_var_record = 1
+detfe_src_var_gridspec = NONE
+detfe_valid_min = 0.0
+#
+bdet_src_file = INPUT/wombatmid_ic.nc
+bdet_src_var_name = bdet
+bdet_src_var_unit = none
+bdet_dest_var_name = bdet
+bdet_dest_var_unit = mol kg-1
+bdet_src_var_record = 1
+bdet_src_var_gridspec = NONE
+bdet_valid_min = 0.0
+#
+bdetfe_src_file = INPUT/wombatmid_ic.nc
+bdetfe_src_var_name = bdetfe
+bdetfe_src_var_unit = none
+bdetfe_dest_var_name = bdetfe
+bdetfe_dest_var_unit = mol kg-1
+bdetfe_src_var_record = 1
+bdetfe_src_var_gridspec = NONE
+bdetfe_valid_min = 0.0
+#
+bdetsi_src_file = INPUT/wombatmid_ic.nc
+bdetsi_src_var_name = bdetsi
+bdetsi_src_var_unit = none
+bdetsi_dest_var_name = bdetsi
+bdetsi_dest_var_unit = mol kg-1
+bdetsi_src_var_record = 1
+bdetsi_src_var_gridspec = NONE
+bdetsi_valid_min = 0.0
+#
+doc_src_file = INPUT/wombatmid_ic.nc
+doc_src_var_name = doc
+doc_src_var_unit = none
+doc_dest_var_name = doc
+doc_dest_var_unit = mol kg-1
+doc_src_var_record = 1
+doc_src_var_gridspec = NONE
+doc_valid_min = 0.0
+#
+don_src_file = INPUT/wombatmid_ic.nc
+don_src_var_name = don
+don_src_var_unit = none
+don_dest_var_name = don
+don_dest_var_unit = mol kg-1
+don_src_var_record = 1
+don_src_var_gridspec = NONE
+don_valid_min = 0.0
+#
+nosdoc_src_file = INPUT/wombatmid_ic.nc
+nosdoc_src_var_name = nosdoc
+nosdoc_src_var_unit = none
+nosdoc_dest_var_name = nosdoc
+nosdoc_dest_var_unit = none
+nosdoc_src_var_record = 1
+nosdoc_src_var_gridspec = NONE
+nosdoc_valid_min = 0.0
+#
+bac1_src_file = INPUT/wombatmid_ic.nc
+bac1_src_var_name = bac1
+bac1_src_var_unit = none
+bac1_dest_var_name = bac1
+bac1_dest_var_unit = mol kg-1
+bac1_src_var_record = 1
+bac1_src_var_gridspec = NONE
+bac1_valid_min = 0.0
+#
+bac2_src_file = INPUT/wombatmid_ic.nc
+bac2_src_var_name = bac2
+bac2_src_var_unit = none
+bac2_dest_var_name = bac2
+bac2_dest_var_unit = mol kg-1
+bac2_src_var_record = 1
+bac2_src_var_gridspec = NONE
+bac2_valid_min = 0.0
+#
+aoa_src_file = INPUT/wombatmid_ic.nc
+aoa_src_var_name = aoa
+aoa_src_var_unit = none
+aoa_dest_var_name = aoa
+aoa_dest_var_unit = mol kg-1
+aoa_src_var_record = 1
+aoa_src_var_gridspec = NONE
+aoa_valid_min = 0.0
+#
+n2o_src_file = INPUT/wombatmid_ic.nc
+n2o_src_var_name = n2o
+n2o_src_var_unit = none
+n2o_dest_var_name = n2o
+n2o_dest_var_unit = mol kg-1
+n2o_src_var_record = 1
+n2o_src_var_gridspec = NONE
+n2o_valid_min = 0.0
+#
+caco3_src_file = INPUT/wombatmid_ic.nc
+caco3_src_var_name = caco3
+caco3_src_var_unit = none
+caco3_dest_var_name = caco3
+caco3_dest_var_unit = mol kg-1
+caco3_src_var_record = 1
+caco3_src_var_gridspec = NONE
+caco3_valid_min = 0.0
+#
+dic_src_file = INPUT/wombatmid_ic.nc
+dic_src_var_name = dic
+dic_src_var_unit = none
+dic_dest_var_name = dic
+dic_dest_var_unit = mol kg-1
+dic_src_var_record = 1
+dic_src_var_gridspec = NONE
+dic_valid_min = 0.0
+#
+dicp_src_file = INPUT/wombatmid_ic.nc
+dicp_src_var_name = dicp
+dicp_src_var_unit = none
+dicp_dest_var_name = dicp
+dicp_dest_var_unit = mol kg-1
+dicp_src_var_record = 1
+dicp_src_var_gridspec = NONE
+dicp_valid_min = 0.0
+#
+dicr_src_file = INPUT/wombatmid_ic.nc
+dicr_src_var_name = dicr
+dicr_src_var_unit = none
+dicr_dest_var_name = dicr
+dicr_dest_var_unit = mol kg-1
+dicr_src_var_record = 1
+dicr_src_var_gridspec = NONE
+dicr_valid_min = 0.0
+#
+alk_src_file = INPUT/wombatmid_ic.nc
+alk_src_var_name = alk
+alk_src_var_unit = none
+alk_dest_var_name = alk
+alk_dest_var_unit = mol kg-1
+alk_src_var_record = 1
+alk_src_var_gridspec = NONE
+alk_valid_min = 0.0
+#
+fe_src_file = INPUT/wombatmid_ic.nc
+fe_src_var_name = fe
+fe_src_var_unit = none
+fe_dest_var_name = fe
+fe_dest_var_unit = mol kg-1
+fe_src_var_record = 1
+fe_src_var_gridspec = NONE
+fe_valid_min = 0.0
+#
+afe_src_file = INPUT/wombatmid_ic.nc
+afe_src_var_name = afe
+afe_src_var_unit = none
+afe_dest_var_name = afe
+afe_dest_var_unit = mol kg-1
+afe_src_var_record = 1
+afe_src_var_gridspec = NONE
+afe_valid_min = 0.0
+#
+bafe_src_file = INPUT/wombatmid_ic.nc
+bafe_src_var_name = bafe
+bafe_src_var_unit = none
+bafe_dest_var_name = bafe
+bafe_dest_var_unit = mol kg-1
+bafe_src_var_record = 1
+bafe_src_var_gridspec = NONE
+bafe_valid_min = 0.0
+#
+det_sediment_src_file = INPUT/wombatmid_ic.nc
 det_sediment_src_var_name = det_sediment
 det_sediment_src_var_unit = none
 det_sediment_dest_var_name = det_sediment
@@ -156,7 +327,7 @@ det_sediment_src_var_record = 1
 det_sediment_src_var_gridspec = NONE
 det_sediment_valid_min = 0.0
 #
-detfe_sediment_src_file = INPUT/wombatlite_ic.nc
+detfe_sediment_src_file = INPUT/wombatmid_ic.nc
 detfe_sediment_src_var_name = detfe_sediment
 detfe_sediment_src_var_unit = none
 detfe_sediment_dest_var_name = detfe_sediment
@@ -164,5 +335,40 @@ detfe_sediment_dest_var_unit = mol m-2
 detfe_sediment_src_var_record = 1
 detfe_sediment_src_var_gridspec = NONE
 detfe_sediment_valid_min = 0.0
+#
+detsi_sediment_src_file = INPUT/wombatmid_ic.nc
+detsi_sediment_src_var_name = detsi_sediment
+detsi_sediment_src_var_unit = none
+detsi_sediment_dest_var_name = detsi_sediment
+detsi_sediment_dest_var_unit = mol m-2
+detsi_sediment_src_var_record = 1
+detsi_sediment_src_var_gridspec = NONE
+detsi_sediment_valid_min = 0.0
+#
+caco3_sediment_src_file = INPUT/wombatmid_ic.nc
+caco3_sediment_src_var_name = caco3_sediment
+caco3_sediment_src_var_unit = none
+caco3_sediment_dest_var_name = caco3_sediment
+caco3_sediment_dest_var_unit = mol m-2
+caco3_sediment_src_var_record = 1
+caco3_sediment_src_var_gridspec = NONE
+caco3_sediment_valid_min = 0.0
+#
+detbury_src_file = INPUT/wombatmid_ic.nc
+detbury_src_var_name = detbury
+detbury_src_var_unit = none
+detbury_dest_var_name = detbury
+detbury_dest_var_unit = mol m-2
+detbury_src_var_record = 1
+detbury_src_var_gridspec = NONE
+detbury_valid_min = 0.0
+#
+caco3bury_src_file = INPUT/wombatmid_ic.nc
+caco3bury_src_var_name = caco3bury
+caco3bury_src_var_unit = none
+caco3bury_dest_var_name = caco3bury
+caco3bury_dest_var_unit = mol m-2
+caco3bury_src_var_record = 1
+caco3bury_src_var_gridspec = NONE
+caco3bury_valid_min = 0.0
 /
-

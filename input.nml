@@ -18,7 +18,7 @@
 
 &generic_tracer_nml
          do_generic_tracer=.true.
-         do_generic_WOMBATlite=.true. /
+         do_generic_WOMBATmid=.true. /
 
-&generic_wombatlite_nml
+&generic_wombatmid_nml
 /

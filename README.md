@@ -9,7 +9,7 @@ The configurations here have been modified to:
 - run with [Payu](https://github.com/payu-org/payu)
 - use ocean parameters based on those used in [ACCESS-OM3 25km configurations](https://github.com/ACCESS-NRI/access-om3-configs/tree/dev-MC_25km_jra_ryf%2Bwombatlite)
 
-This default branch uses JRA55-do repeat-year forcing and WOMBATlite biogeochemistry. Other configurations are available in other branches in this repo.
+This branch uses JRA55-do repeat-year forcing and WOMBATmid biogeochemistry. Other configurations are available in other branches in this repo.
 
 ## To run
 
@@ -24,8 +24,8 @@ $ payu run
 ## Performance
 
 The approximate cost of running this configuration without modification is:
-- Compute usage: 0.6 SU/year
-- Model throughput: ~500 years/day
+- Compute usage: 0.25 SU/year
+- Model throughput: 450 years/day
 - Total CPUs: 2
 
 ## Changing the domain
@@ -41,7 +41,8 @@ The domain comprises 2x2 h-cells spanning 1x1 degree and can be easily relocated
 Existing domains can be found in the `./domains` directory. To use an existing domain, simply create a symlink in the base directory to the domain of choice as follows
 
 ```bash
-$ ln -s ./domains/BATS INPUT
+$ unlink ./INPUT
+$ ln -s ./domains/BATS ./INPUT
 ```
 
 ## Creating a new domain

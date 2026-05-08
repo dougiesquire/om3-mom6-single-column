@@ -131,148 +131,517 @@ ACCESS-OM3
 # 3d prognostic BGC fields
 
 "access-om3.mom6.3d.alk.1day.mean.%4yr", 1, "days", 1, "days", "time", 1, "years"
-"generic_wombatlite", "alk", "alk", "access-om3.mom6.3d.alk.1day.mean.%4yr", "all", "average", "none", 2
+"generic_wombatmid", "alk", "alk", "access-om3.mom6.3d.alk.1day.mean.%4yr", "all", "average", "none", 2
 
 "access-om3.mom6.3d.caco3.1day.mean.%4yr", 1, "days", 1, "days", "time", 1, "years"
-"generic_wombatlite", "caco3", "caco3", "access-om3.mom6.3d.caco3.1day.mean.%4yr", "all", "average", "none", 2
+"generic_wombatmid", "caco3", "caco3", "access-om3.mom6.3d.caco3.1day.mean.%4yr", "all", "average", "none", 2
 
 "access-om3.mom6.3d.det.1day.mean.%4yr", 1, "days", 1, "days", "time", 1, "years"
-"generic_wombatlite", "det", "det", "access-om3.mom6.3d.det.1day.mean.%4yr", "all", "average", "none", 2
+"generic_wombatmid", "det", "det", "access-om3.mom6.3d.det.1day.mean.%4yr", "all", "average", "none", 2
 
 "access-om3.mom6.3d.detfe.1day.mean.%4yr", 1, "days", 1, "days", "time", 1, "years"
-"generic_wombatlite", "detfe", "detfe", "access-om3.mom6.3d.detfe.1day.mean.%4yr", "all", "average", "none", 2
+"generic_wombatmid", "detfe", "detfe", "access-om3.mom6.3d.detfe.1day.mean.%4yr", "all", "average", "none", 2
+
+"access-om3.mom6.3d.bdet.1day.mean.%4yr", 1, "days", 1, "days", "time", 1, "years"
+"generic_wombatmid", "bdet", "bdet", "access-om3.mom6.3d.bdet.1day.mean.%4yr", "all", "average", "none", 2
+
+"access-om3.mom6.3d.bdetfe.1day.mean.%4yr", 1, "days", 1, "days", "time", 1, "years"
+"generic_wombatmid", "bdetfe", "bdetfe", "access-om3.mom6.3d.bdetfe.1day.mean.%4yr", "all", "average", "none", 2
+
+"access-om3.mom6.3d.bdetsi.1day.mean.%4yr", 1, "days", 1, "days", "time", 1, "years"
+"generic_wombatmid", "bdetsi", "bdetsi", "access-om3.mom6.3d.bdetsi.1day.mean.%4yr", "all", "average", "none", 2
+
+"access-om3.mom6.3d.doc.1day.mean.%4yr", 1, "days", 1, "days", "time", 1, "years"
+"generic_wombatmid", "doc", "doc", "access-om3.mom6.3d.doc.1day.mean.%4yr", "all", "average", "none", 2
+
+"access-om3.mom6.3d.don.1day.mean.%4yr", 1, "days", 1, "days", "time", 1, "years"
+"generic_wombatmid", "don", "don", "access-om3.mom6.3d.don.1day.mean.%4yr", "all", "average", "none", 2
+
+"access-om3.mom6.3d.nosdoc.1day.mean.%4yr", 1, "days", 1, "days", "time", 1, "years"
+"generic_wombatmid", "nosdoc", "nosdoc", "access-om3.mom6.3d.nosdoc.1day.mean.%4yr", "all", "average", "none", 2
+
+"access-om3.mom6.3d.bac1.1day.mean.%4yr", 1, "days", 1, "days", "time", 1, "years"
+"generic_wombatmid", "bac1", "bac1", "access-om3.mom6.3d.bac1.1day.mean.%4yr", "all", "average", "none", 2
+
+"access-om3.mom6.3d.bac2.1day.mean.%4yr", 1, "days", 1, "days", "time", 1, "years"
+"generic_wombatmid", "bac2", "bac2", "access-om3.mom6.3d.bac2.1day.mean.%4yr", "all", "average", "none", 2
+
+"access-om3.mom6.3d.aoa.1day.mean.%4yr", 1, "days", 1, "days", "time", 1, "years"
+"generic_wombatmid", "aoa", "aoa", "access-om3.mom6.3d.aoa.1day.mean.%4yr", "all", "average", "none", 2
 
 "access-om3.mom6.3d.dic.1day.mean.%4yr", 1, "days", 1, "days", "time", 1, "years"
-"generic_wombatlite", "dic", "dic", "access-om3.mom6.3d.dic.1day.mean.%4yr", "all", "average", "none", 2
+"generic_wombatmid", "dic", "dic", "access-om3.mom6.3d.dic.1day.mean.%4yr", "all", "average", "none", 2
 
 "access-om3.mom6.3d.dicr.1day.mean.%4yr", 1, "days", 1, "days", "time", 1, "years"
-"generic_wombatlite", "dicr", "dicr", "access-om3.mom6.3d.dicr.1day.mean.%4yr", "all", "average", "none", 2
+"generic_wombatmid", "dicr", "dicr", "access-om3.mom6.3d.dicr.1day.mean.%4yr", "all", "average", "none", 2
 
 "access-om3.mom6.3d.dicp.1day.mean.%4yr", 1, "days", 1, "days", "time", 1, "years"
-"generic_wombatlite", "dicp", "dicp", "access-om3.mom6.3d.dicp.1day.mean.%4yr", "all", "average", "none", 2
+"generic_wombatmid", "dicp", "dicp", "access-om3.mom6.3d.dicp.1day.mean.%4yr", "all", "average", "none", 2
 
 "access-om3.mom6.3d.fe.1day.mean.%4yr", 1, "days", 1, "days", "time", 1, "years"
-"generic_wombatlite", "fe", "fe", "access-om3.mom6.3d.fe.1day.mean.%4yr", "all", "average", "none", 2
+"generic_wombatmid", "fe", "fe", "access-om3.mom6.3d.fe.1day.mean.%4yr", "all", "average", "none", 2
+
+"access-om3.mom6.3d.afe.1day.mean.%4yr", 1, "days", 1, "days", "time", 1, "years"
+"generic_wombatmid", "afe", "afe", "access-om3.mom6.3d.afe.1day.mean.%4yr", "all", "average", "none", 2
+
+"access-om3.mom6.3d.bafe.1day.mean.%4yr", 1, "days", 1, "days", "time", 1, "years"
+"generic_wombatmid", "bafe", "bafe", "access-om3.mom6.3d.bafe.1day.mean.%4yr", "all", "average", "none", 2
 
 "access-om3.mom6.3d.no3.1day.mean.%4yr", 1, "days", 1, "days", "time", 1, "years"
-"generic_wombatlite", "no3", "no3", "access-om3.mom6.3d.no3.1day.mean.%4yr", "all", "average", "none", 2
+"generic_wombatmid", "no3", "no3", "access-om3.mom6.3d.no3.1day.mean.%4yr", "all", "average", "none", 2
+
+"access-om3.mom6.3d.nh4.1day.mean.%4yr", 1, "days", 1, "days", "time", 1, "years"
+"generic_wombatmid", "nh4", "nh4", "access-om3.mom6.3d.nh4.1day.mean.%4yr", "all", "average", "none", 2
+
+"access-om3.mom6.3d.sil.1day.mean.%4yr", 1, "days", 1, "days", "time", 1, "years"
+"generic_wombatmid", "sil", "sil", "access-om3.mom6.3d.sil.1day.mean.%4yr", "all", "average", "none", 2
 
 "access-om3.mom6.3d.o2.1day.mean.%4yr", 1, "days", 1, "days", "time", 1, "years"
-"generic_wombatlite", "o2", "o2", "access-om3.mom6.3d.o2.1day.mean.%4yr", "all", "average", "none", 2
+"generic_wombatmid", "o2", "o2", "access-om3.mom6.3d.o2.1day.mean.%4yr", "all", "average", "none", 2
+
+"access-om3.mom6.3d.n2o.1day.mean.%4yr", 1, "days", 1, "days", "time", 1, "years"
+"generic_wombatmid", "n2o", "n2o", "access-om3.mom6.3d.n2o.1day.mean.%4yr", "all", "average", "none", 2
 
 "access-om3.mom6.3d.phy.1day.mean.%4yr", 1, "days", 1, "days", "time", 1, "years"
-"generic_wombatlite", "phy", "phy", "access-om3.mom6.3d.phy.1day.mean.%4yr", "all", "average", "none", 2
+"generic_wombatmid", "phy", "phy", "access-om3.mom6.3d.phy.1day.mean.%4yr", "all", "average", "none", 2
 
 "access-om3.mom6.3d.phyfe.1day.mean.%4yr", 1, "days", 1, "days", "time", 1, "years"
-"generic_wombatlite", "phyfe", "phyfe", "access-om3.mom6.3d.phyfe.1day.mean.%4yr", "all", "average", "none", 2
+"generic_wombatmid", "phyfe", "phyfe", "access-om3.mom6.3d.phyfe.1day.mean.%4yr", "all", "average", "none", 2
 
 "access-om3.mom6.3d.pchl.1day.mean.%4yr", 1, "days", 1, "days", "time", 1, "years"
-"generic_wombatlite", "pchl", "pchl", "access-om3.mom6.3d.pchl.1day.mean.%4yr", "all", "average", "none", 2
+"generic_wombatmid", "pchl", "pchl", "access-om3.mom6.3d.pchl.1day.mean.%4yr", "all", "average", "none", 2
+
+"access-om3.mom6.3d.dia.1day.mean.%4yr", 1, "days", 1, "days", "time", 1, "years"
+"generic_wombatmid", "dia", "dia", "access-om3.mom6.3d.dia.1day.mean.%4yr", "all", "average", "none", 2
+
+"access-om3.mom6.3d.diafe.1day.mean.%4yr", 1, "days", 1, "days", "time", 1, "years"
+"generic_wombatmid", "diafe", "diafe", "access-om3.mom6.3d.diafe.1day.mean.%4yr", "all", "average", "none", 2
+
+"access-om3.mom6.3d.diasi.1day.mean.%4yr", 1, "days", 1, "days", "time", 1, "years"
+"generic_wombatmid", "diasi", "diasi", "access-om3.mom6.3d.diasi.1day.mean.%4yr", "all", "average", "none", 2
+
+"access-om3.mom6.3d.dchl.1day.mean.%4yr", 1, "days", 1, "days", "time", 1, "years"
+"generic_wombatmid", "dchl", "dchl", "access-om3.mom6.3d.dchl.1day.mean.%4yr", "all", "average", "none", 2
 
 "access-om3.mom6.3d.zoo.1day.mean.%4yr", 1, "days", 1, "days", "time", 1, "years"
-"generic_wombatlite", "zoo", "zoo", "access-om3.mom6.3d.zoo.1day.mean.%4yr", "all", "average", "none", 2
+"generic_wombatmid", "zoo", "zoo", "access-om3.mom6.3d.zoo.1day.mean.%4yr", "all", "average", "none", 2
+
+"access-om3.mom6.3d.mes.1day.mean.%4yr", 1, "days", 1, "days", "time", 1, "years"
+"generic_wombatmid", "mes", "mes", "access-om3.mom6.3d.mes.1day.mean.%4yr", "all", "average", "none", 2
 
 "access-om3.mom6.3d.zoofe.1day.mean.%4yr", 1, "days", 1, "days", "time", 1, "years"
-"generic_wombatlite", "zoofe", "zoofe", "access-om3.mom6.3d.zoofe.1day.mean.%4yr", "all", "average", "none", 2
+"generic_wombatmid", "zoofe", "zoofe", "access-om3.mom6.3d.zoofe.1day.mean.%4yr", "all", "average", "none", 2
+
+"access-om3.mom6.3d.mesfe.1day.mean.%4yr", 1, "days", 1, "days", "time", 1, "years"
+"generic_wombatmid", "mesfe", "mesfe", "access-om3.mom6.3d.mesfe.1day.mean.%4yr", "all", "average", "none", 2
 
 
 # 3d diagnostic BGC fields
 
 "access-om3.mom6.3d.npp3d.1day.mean.%4yr", 1, "days", 1, "days", "time", 1, "years"
-"generic_wombatlite", "npp3d", "npp3d", "access-om3.mom6.3d.npp3d.1day.mean.%4yr", "all", "average", "none", 2
+"generic_wombatmid", "npp3d", "npp3d", "access-om3.mom6.3d.npp3d.1day.mean.%4yr", "all", "average", "none", 2
+
+"access-om3.mom6.3d.rpp3d.1day.mean.%4yr", 1, "days", 1, "days", "time", 1, "years"
+"generic_wombatmid", "rpp3d", "rpp3d", "access-om3.mom6.3d.rpp3d.1day.mean.%4yr", "all", "average", "none", 2
 
 "access-om3.mom6.3d.zsp3d.1day.mean.%4yr", 1, "days", 1, "days", "time", 1, "years"
-"generic_wombatlite", "zsp3d", "zsp3d", "access-om3.mom6.3d.zsp3d.1day.mean.%4yr", "all", "average", "none", 2
+"generic_wombatmid", "zsp3d", "zsp3d", "access-om3.mom6.3d.zsp3d.1day.mean.%4yr", "all", "average", "none", 2
 
 "access-om3.mom6.3d.radbio.1day.mean.%4yr", 1, "days", 1, "days", "time", 1, "years"
-"generic_wombatlite", "radbio", "radbio", "access-om3.mom6.3d.radbio.1day.mean.%4yr", "all", "average", "none", 2
+"generic_wombatmid", "radbio", "radbio", "access-om3.mom6.3d.radbio.1day.mean.%4yr", "all", "average", "none", 2
+
+"access-om3.mom6.3d.nitrfix.1day.mean.%4yr", 1, "days", 1, "days", "time", 1, "years"
+"generic_wombatmid", "nitrfix", "nitrfix", "access-om3.mom6.3d.nitrfix.1day.mean.%4yr", "all", "average", "none", 2
 
 "access-om3.mom6.3d.phy_mu.1day.mean.%4yr", 1, "days", 1, "days", "time", 1, "years"
-"generic_wombatlite", "phy_mu", "phy_mu", "access-om3.mom6.3d.phy_mu.1day.mean.%4yr", "all", "average", "none", 2
-
-"access-om3.mom6.3d.phy_lpar.1day.mean.%4yr", 1, "days", 1, "days", "time", 1, "years"
-"generic_wombatlite", "phy_lpar", "phy_lpar", "access-om3.mom6.3d.phy_lpar.1day.mean.%4yr", "all", "average", "none", 2
-
-"access-om3.mom6.3d.phy_lnit.1day.mean.%4yr", 1, "days", 1, "days", "time", 1, "years"
-"generic_wombatlite", "phy_lnit", "phy_lnit", "access-om3.mom6.3d.phy_lnit.1day.mean.%4yr", "all", "average", "none", 2
-
-"access-om3.mom6.3d.phy_lfer.1day.mean.%4yr", 1, "days", 1, "days", "time", 1, "years"
-"generic_wombatlite", "phy_lfer", "phy_lfer", "access-om3.mom6.3d.phy_lfer.1day.mean.%4yr", "all", "average", "none", 2
-
-"access-om3.mom6.3d.phy_dfeupt.1day.mean.%4yr", 1, "days", 1, "days", "time", 1, "years"
-"generic_wombatlite", "phy_dfeupt", "phy_dfeupt", "access-om3.mom6.3d.phy_dfeupt.1day.mean.%4yr", "all", "average", "none", 2
+"generic_wombatmid", "phy_mu", "phy_mu", "access-om3.mom6.3d.phy_mu.1day.mean.%4yr", "all", "average", "none", 2
 
 "access-om3.mom6.3d.phygrow.1day.mean.%4yr", 1, "days", 1, "days", "time", 1, "years"
-"generic_wombatlite", "phygrow", "phygrow", "access-om3.mom6.3d.phygrow.1day.mean.%4yr", "all", "average", "none", 2
+"generic_wombatmid", "phygrow", "phygrow", "access-om3.mom6.3d.phygrow.1day.mean.%4yr", "all", "average", "none", 2
 
-"access-om3.mom6.3d.phymorl.1day.mean.%4yr", 1, "days", 1, "days", "time", 1, "years"
-"generic_wombatlite", "phymorl", "phymorl", "access-om3.mom6.3d.phymorl.1day.mean.%4yr", "all", "average", "none", 2
+"access-om3.mom6.3d.phydoc.1day.mean.%4yr", 1, "days", 1, "days", "time", 1, "years"
+"generic_wombatmid", "phydoc", "phydoc", "access-om3.mom6.3d.phydoc.1day.mean.%4yr", "all", "average", "none", 2
 
-"access-om3.mom6.3d.phymorq.1day.mean.%4yr", 1, "days", 1, "days", "time", 1, "years"
-"generic_wombatlite", "phymorq", "phymorq", "access-om3.mom6.3d.phymorq.1day.mean.%4yr", "all", "average", "none", 2
+"access-om3.mom6.3d.phy_lpar.1day.mean.%4yr", 1, "days", 1, "days", "time", 1, "years"
+"generic_wombatmid", "phy_lpar", "phy_lpar", "access-om3.mom6.3d.phy_lpar.1day.mean.%4yr", "all", "average", "none", 2
+
+"access-om3.mom6.3d.phy_lnit.1day.mean.%4yr", 1, "days", 1, "days", "time", 1, "years"
+"generic_wombatmid", "phy_lnit", "phy_lnit", "access-om3.mom6.3d.phy_lnit.1day.mean.%4yr", "all", "average", "none", 2
+
+"access-om3.mom6.3d.phy_lfer.1day.mean.%4yr", 1, "days", 1, "days", "time", 1, "years"
+"generic_wombatmid", "phy_lfer", "phy_lfer", "access-om3.mom6.3d.phy_lfer.1day.mean.%4yr", "all", "average", "none", 2
+
+"access-om3.mom6.3d.phy_dfeupt.1day.mean.%4yr", 1, "days", 1, "days", "time", 1, "years"
+"generic_wombatmid", "phy_dfeupt", "phy_dfeupt", "access-om3.mom6.3d.phy_dfeupt.1day.mean.%4yr", "all", "average", "none", 2
+
+"access-om3.mom6.3d.dia_mu.1day.mean.%4yr", 1, "days", 1, "days", "time", 1, "years"
+"generic_wombatmid", "dia_mu", "dia_mu", "access-om3.mom6.3d.dia_mu.1day.mean.%4yr", "all", "average", "none", 2
+
+"access-om3.mom6.3d.diagrow.1day.mean.%4yr", 1, "days", 1, "days", "time", 1, "years"
+"generic_wombatmid", "diagrow", "diagrow", "access-om3.mom6.3d.diagrow.1day.mean.%4yr", "all", "average", "none", 2
+
+"access-om3.mom6.3d.diadoc.1day.mean.%4yr", 1, "days", 1, "days", "time", 1, "years"
+"generic_wombatmid", "diadoc", "diadoc", "access-om3.mom6.3d.diadoc.1day.mean.%4yr", "all", "average", "none", 2
+
+"access-om3.mom6.3d.dia_lpar.1day.mean.%4yr", 1, "days", 1, "days", "time", 1, "years"
+"generic_wombatmid", "dia_lpar", "dia_lpar", "access-om3.mom6.3d.dia_lpar.1day.mean.%4yr", "all", "average", "none", 2
+
+"access-om3.mom6.3d.dia_lnit.1day.mean.%4yr", 1, "days", 1, "days", "time", 1, "years"
+"generic_wombatmid", "dia_lnit", "dia_lnit", "access-om3.mom6.3d.dia_lnit.1day.mean.%4yr", "all", "average", "none", 2
+
+"access-om3.mom6.3d.dia_lfer.1day.mean.%4yr", 1, "days", 1, "days", "time", 1, "years"
+"generic_wombatmid", "dia_lfer", "dia_lfer", "access-om3.mom6.3d.dia_lfer.1day.mean.%4yr", "all", "average", "none", 2
+
+"access-om3.mom6.3d.dia_lsil.1day.mean.%4yr", 1, "days", 1, "days", "time", 1, "years"
+"generic_wombatmid", "dia_lsil", "dia_lsil", "access-om3.mom6.3d.dia_lsil.1day.mean.%4yr", "all", "average", "none", 2
+
+"access-om3.mom6.3d.dia_dfeupt.1day.mean.%4yr", 1, "days", 1, "days", "time", 1, "years"
+"generic_wombatmid", "dia_dfeupt", "dia_dfeupt", "access-om3.mom6.3d.dia_dfeupt.1day.mean.%4yr", "all", "average", "none", 2
+
+"access-om3.mom6.3d.dia_silupt.1day.mean.%4yr", 1, "days", 1, "days", "time", 1, "years"
+"generic_wombatmid", "dia_silupt", "dia_silupt", "access-om3.mom6.3d.dia_silupt.1day.mean.%4yr", "all", "average", "none", 2
 
 "access-om3.mom6.3d.pchl_mu.1day.mean.%4yr", 1, "days", 1, "days", "time", 1, "years"
-"generic_wombatlite", "pchl_mu", "pchl_mu", "access-om3.mom6.3d.pchl_mu.1day.mean.%4yr", "all", "average", "none", 2
+"generic_wombatmid", "pchl_mu", "pchl_mu", "access-om3.mom6.3d.pchl_mu.1day.mean.%4yr", "all", "average", "none", 2
+
+"access-om3.mom6.3d.dchl_mu.1day.mean.%4yr", 1, "days", 1, "days", "time", 1, "years"
+"generic_wombatmid", "dchl_mu", "dchl_mu", "access-om3.mom6.3d.dchl_mu.1day.mean.%4yr", "all", "average", "none", 2
+
+"access-om3.mom6.3d.bsidiss.1day.mean.%4yr", 1, "days", 1, "days", "time", 1, "years"
+"generic_wombatmid", "bsidiss", "bsidiss", "access-om3.mom6.3d.bsidiss.1day.mean.%4yr", "all", "average", "none", 2
+
+"access-om3.mom6.3d.feIII.1day.mean.%4yr", 1, "days", 1, "days", "time", 1, "years"
+"generic_wombatmid", "feIII", "feIII", "access-om3.mom6.3d.feIII.1day.mean.%4yr", "all", "average", "none", 2
+
+"access-om3.mom6.3d.felig.1day.mean.%4yr", 1, "days", 1, "days", "time", 1, "years"
+"generic_wombatmid", "felig", "felig", "access-om3.mom6.3d.felig.1day.mean.%4yr", "all", "average", "none", 2
+
+"access-om3.mom6.3d.ligK.1day.mean.%4yr", 1, "days", 1, "days", "time", 1, "years"
+"generic_wombatmid", "ligK", "ligK", "access-om3.mom6.3d.ligK.1day.mean.%4yr", "all", "average", "none", 2
+
+"access-om3.mom6.3d.fecol.1day.mean.%4yr", 1, "days", 1, "days", "time", 1, "years"
+"generic_wombatmid", "fecol", "fecol", "access-om3.mom6.3d.fecol.1day.mean.%4yr", "all", "average", "none", 2
+
+"access-om3.mom6.3d.fescaven.1day.mean.%4yr", 1, "days", 1, "days", "time", 1, "years"
+"generic_wombatmid", "fescaven", "fescaven", "access-om3.mom6.3d.fescaven.1day.mean.%4yr", "all", "average", "none", 2
+
+"access-om3.mom6.3d.fescaafe.1day.mean.%4yr", 1, "days", 1, "days", "time", 1, "years"
+"generic_wombatmid", "fescaafe", "fescaafe", "access-om3.mom6.3d.fescaafe.1day.mean.%4yr", "all", "average", "none", 2
+
+"access-om3.mom6.3d.fescabafe.1day.mean.%4yr", 1, "days", 1, "days", "time", 1, "years"
+"generic_wombatmid", "fescabafe", "fescabafe", "access-om3.mom6.3d.fescabafe.1day.mean.%4yr", "all", "average", "none", 2
+
+"access-om3.mom6.3d.fecoag2afe.1day.mean.%4yr", 1, "days", 1, "days", "time", 1, "years"
+"generic_wombatmid", "fecoag2afe", "fecoag2afe", "access-om3.mom6.3d.fecoag2afe.1day.mean.%4yr", "all", "average", "none", 2
+
+"access-om3.mom6.3d.fecoag2bafe.1day.mean.%4yr", 1, "days", 1, "days", "time", 1, "years"
+"generic_wombatmid", "fecoag2bafe", "fecoag2bafe", "access-om3.mom6.3d.fecoag2bafe.1day.mean.%4yr", "all", "average", "none", 2
+
+"access-om3.mom6.3d.afediss.1day.mean.%4yr", 1, "days", 1, "days", "time", 1, "years"
+"generic_wombatmid", "afediss", "afediss", "access-om3.mom6.3d.afediss.1day.mean.%4yr", "all", "average", "none", 2
+
+"access-om3.mom6.3d.bafediss.1day.mean.%4yr", 1, "days", 1, "days", "time", 1, "years"
+"generic_wombatmid", "bafediss", "bafediss", "access-om3.mom6.3d.bafediss.1day.mean.%4yr", "all", "average", "none", 2
 
 "access-om3.mom6.3d.fesources.1day.mean.%4yr", 1, "days", 1, "days", "time", 1, "years"
-"generic_wombatlite", "fesources", "fesources", "access-om3.mom6.3d.fesources.1day.mean.%4yr", "all", "average", "none", 2
+"generic_wombatmid", "fesources", "fesources", "access-om3.mom6.3d.fesources.1day.mean.%4yr", "all", "average", "none", 2
 
 "access-om3.mom6.3d.fesinks.1day.mean.%4yr", 1, "days", 1, "days", "time", 1, "years"
-"generic_wombatlite", "fesinks", "fesinks", "access-om3.mom6.3d.fesinks.1day.mean.%4yr", "all", "average", "none", 2
-
-"access-om3.mom6.3d.htotal.1day.mean.%4yr", 1, "days", 1, "days", "time", 1, "years"
-"generic_wombatlite", "htotal", "htotal", "access-om3.mom6.3d.htotal.1day.mean.%4yr", "all", "average", "none", 2
-
-"access-om3.mom6.3d.omega_ara.1day.mean.%4yr", 1, "days", 1, "days", "time", 1, "years"
-"generic_wombatlite", "omega_ara", "omega_ara", "access-om3.mom6.3d.omega_ara.1day.mean.%4yr", "all", "average", "none", 2
-
-"access-om3.mom6.3d.omega_cal.1day.mean.%4yr", 1, "days", 1, "days", "time", 1, "years"
-"generic_wombatlite", "omega_cal", "omega_cal", "access-om3.mom6.3d.omega_cal.1day.mean.%4yr", "all", "average", "none", 2
+"generic_wombatmid", "fesinks", "fesinks", "access-om3.mom6.3d.fesinks.1day.mean.%4yr", "all", "average", "none", 2
 
 "access-om3.mom6.3d.pic2poc.1day.mean.%4yr", 1, "days", 1, "days", "time", 1, "years"
-"generic_wombatlite", "pic2poc", "pic2poc", "access-om3.mom6.3d.pic2poc.1day.mean.%4yr", "all", "average", "none", 2
+"generic_wombatmid", "pic2poc", "pic2poc", "access-om3.mom6.3d.pic2poc.1day.mean.%4yr", "all", "average", "none", 2
+
+"access-om3.mom6.3d.omega_ara.1day.mean.%4yr", 1, "days", 1, "days", "time", 1, "years"
+"generic_wombatmid", "omega_ara", "omega_ara", "access-om3.mom6.3d.omega_ara.1day.mean.%4yr", "all", "average", "none", 2
+
+"access-om3.mom6.3d.omega_cal.1day.mean.%4yr", 1, "days", 1, "days", "time", 1, "years"
+"generic_wombatmid", "omega_cal", "omega_cal", "access-om3.mom6.3d.omega_cal.1day.mean.%4yr", "all", "average", "none", 2
 
 "access-om3.mom6.3d.zooeps.1day.mean.%4yr", 1, "days", 1, "days", "time", 1, "years"
-"generic_wombatlite", "zooeps", "zooeps", "access-om3.mom6.3d.zooeps.1day.mean.%4yr", "all", "average", "none", 2
+"generic_wombatmid", "zooeps", "zooeps", "access-om3.mom6.3d.zooeps.1day.mean.%4yr", "all", "average", "none", 2
+
+"access-om3.mom6.3d.zoograzbac1.1day.mean.%4yr", 1, "days", 1, "days", "time", 1, "years"
+"generic_wombatmid", "zoograzbac1", "zoograzbac1", "access-om3.mom6.3d.zoograzbac1.1day.mean.%4yr", "all", "average", "none", 2
+
+"access-om3.mom6.3d.zoograzbac2.1day.mean.%4yr", 1, "days", 1, "days", "time", 1, "years"
+"generic_wombatmid", "zoograzbac2", "zoograzbac2", "access-om3.mom6.3d.zoograzbac2.1day.mean.%4yr", "all", "average", "none", 2
+
+"access-om3.mom6.3d.zoograzaoa.1day.mean.%4yr", 1, "days", 1, "days", "time", 1, "years"
+"generic_wombatmid", "zoograzaoa", "zoograzaoa", "access-om3.mom6.3d.zoograzaoa.1day.mean.%4yr", "all", "average", "none", 2
 
 "access-om3.mom6.3d.zoograzphy.1day.mean.%4yr", 1, "days", 1, "days", "time", 1, "years"
-"generic_wombatlite", "zoograzphy", "zoograzphy", "access-om3.mom6.3d.zoograzphy.1day.mean.%4yr", "all", "average", "none", 2
+"generic_wombatmid", "zoograzphy", "zoograzphy", "access-om3.mom6.3d.zoograzphy.1day.mean.%4yr", "all", "average", "none", 2
+
+"access-om3.mom6.3d.zoograzdia.1day.mean.%4yr", 1, "days", 1, "days", "time", 1, "years"
+"generic_wombatmid", "zoograzdia", "zoograzdia", "access-om3.mom6.3d.zoograzdia.1day.mean.%4yr", "all", "average", "none", 2
 
 "access-om3.mom6.3d.zoograzdet.1day.mean.%4yr", 1, "days", 1, "days", "time", 1, "years"
-"generic_wombatlite", "zoograzdet", "zoograzdet", "access-om3.mom6.3d.zoograzdet.1day.mean.%4yr", "all", "average", "none", 2
+"generic_wombatmid", "zoograzdet", "zoograzdet", "access-om3.mom6.3d.zoograzdet.1day.mean.%4yr", "all", "average", "none", 2
+
+"access-om3.mom6.3d.meseps.1day.mean.%4yr", 1, "days", 1, "days", "time", 1, "years"
+"generic_wombatmid", "meseps", "meseps", "access-om3.mom6.3d.meseps.1day.mean.%4yr", "all", "average", "none", 2
+
+"access-om3.mom6.3d.mesgrazbac1.1day.mean.%4yr", 1, "days", 1, "days", "time", 1, "years"
+"generic_wombatmid", "mesgrazbac1", "mesgrazbac1", "access-om3.mom6.3d.mesgrazbac1.1day.mean.%4yr", "all", "average", "none", 2
+
+"access-om3.mom6.3d.mesgrazbac2.1day.mean.%4yr", 1, "days", 1, "days", "time", 1, "years"
+"generic_wombatmid", "mesgrazbac2", "mesgrazbac2", "access-om3.mom6.3d.mesgrazbac2.1day.mean.%4yr", "all", "average", "none", 2
+
+"access-om3.mom6.3d.mesgrazaoa.1day.mean.%4yr", 1, "days", 1, "days", "time", 1, "years"
+"generic_wombatmid", "mesgrazaoa", "mesgrazaoa", "access-om3.mom6.3d.mesgrazaoa.1day.mean.%4yr", "all", "average", "none", 2
+
+"access-om3.mom6.3d.mesgrazphy.1day.mean.%4yr", 1, "days", 1, "days", "time", 1, "years"
+"generic_wombatmid", "mesgrazphy", "mesgrazphy", "access-om3.mom6.3d.mesgrazphy.1day.mean.%4yr", "all", "average", "none", 2
+
+"access-om3.mom6.3d.mesgrazdia.1day.mean.%4yr", 1, "days", 1, "days", "time", 1, "years"
+"generic_wombatmid", "mesgrazdia", "mesgrazdia", "access-om3.mom6.3d.mesgrazdia.1day.mean.%4yr", "all", "average", "none", 2
+
+"access-om3.mom6.3d.mesgrazdet.1day.mean.%4yr", 1, "days", 1, "days", "time", 1, "years"
+"generic_wombatmid", "mesgrazdet", "mesgrazdet", "access-om3.mom6.3d.mesgrazdet.1day.mean.%4yr", "all", "average", "none", 2
+
+"access-om3.mom6.3d.mesgrazbdet.1day.mean.%4yr", 1, "days", 1, "days", "time", 1, "years"
+"generic_wombatmid", "mesgrazbdet", "mesgrazbdet", "access-om3.mom6.3d.mesgrazbdet.1day.mean.%4yr", "all", "average", "none", 2
+
+"access-om3.mom6.3d.mesgrazzoo.1day.mean.%4yr", 1, "days", 1, "days", "time", 1, "years"
+"generic_wombatmid", "mesgrazzoo", "mesgrazzoo", "access-om3.mom6.3d.mesgrazzoo.1day.mean.%4yr", "all", "average", "none", 2
+
+"access-om3.mom6.3d.mesmorq.1day.mean.%4yr", 1, "days", 1, "days", "time", 1, "years"
+"generic_wombatmid", "mesmorq", "mesmorq", "access-om3.mom6.3d.mesmorq.1day.mean.%4yr", "all", "average", "none", 2
 
 "access-om3.mom6.3d.detremi.1day.mean.%4yr", 1, "days", 1, "days", "time", 1, "years"
-"generic_wombatlite", "detremi", "detremi", "access-om3.mom6.3d.detremi.1day.mean.%4yr", "all", "average", "none", 2
+"generic_wombatmid", "detremi", "detremi", "access-om3.mom6.3d.detremi.1day.mean.%4yr", "all", "average", "none", 2
+
+"access-om3.mom6.3d.bdetremi.1day.mean.%4yr", 1, "days", 1, "days", "time", 1, "years"
+"generic_wombatmid", "bdetremi", "bdetremi", "access-om3.mom6.3d.bdetremi.1day.mean.%4yr", "all", "average", "none", 2
+
+"access-om3.mom6.3d.doc1remi.1day.mean.%4yr", 1, "days", 1, "days", "time", 1, "years"
+"generic_wombatmid", "doc1remi", "doc1remi", "access-om3.mom6.3d.doc1remi.1day.mean.%4yr", "all", "average", "none", 2
+
+"access-om3.mom6.3d.doc2remi.1day.mean.%4yr", 1, "days", 1, "days", "time", 1, "years"
+"generic_wombatmid", "doc2remi", "doc2remi", "access-om3.mom6.3d.doc2remi.1day.mean.%4yr", "all", "average", "none", 2
+
+"access-om3.mom6.3d.don1remi.1day.mean.%4yr", 1, "days", 1, "days", "time", 1, "years"
+"generic_wombatmid", "don1remi", "don1remi", "access-om3.mom6.3d.don1remi.1day.mean.%4yr", "all", "average", "none", 2
+
+"access-om3.mom6.3d.don2remi.1day.mean.%4yr", 1, "days", 1, "days", "time", 1, "years"
+"generic_wombatmid", "don2remi", "don2remi", "access-om3.mom6.3d.don2remi.1day.mean.%4yr", "all", "average", "none", 2
+
+"access-om3.mom6.3d.bac1nupt.1day.mean.%4yr", 1, "days", 1, "days", "time", 1, "years"
+"generic_wombatmid", "bac1nupt", "bac1nupt", "access-om3.mom6.3d.bac1nupt.1day.mean.%4yr", "all", "average", "none", 2
+
+"access-om3.mom6.3d.bac2nupt.1day.mean.%4yr", 1, "days", 1, "days", "time", 1, "years"
+"generic_wombatmid", "bac2nupt", "bac2nupt", "access-om3.mom6.3d.bac2nupt.1day.mean.%4yr", "all", "average", "none", 2
+
+"access-om3.mom6.3d.bac_ydon.1day.mean.%4yr", 1, "days", 1, "days", "time", 1, "years"
+"generic_wombatmid", "bac_ydon", "bac_ydon", "access-om3.mom6.3d.bac_ydon.1day.mean.%4yr", "all", "average", "none", 2
+
+"access-om3.mom6.3d.bac1grow.1day.mean.%4yr", 1, "days", 1, "days", "time", 1, "years"
+"generic_wombatmid", "bac1grow", "bac1grow", "access-om3.mom6.3d.bac1grow.1day.mean.%4yr", "all", "average", "none", 2
+
+"access-om3.mom6.3d.bac1_mu.1day.mean.%4yr", 1, "days", 1, "days", "time", 1, "years"
+"generic_wombatmid", "bac1_mu", "bac1_mu", "access-om3.mom6.3d.bac1_mu.1day.mean.%4yr", "all", "average", "none", 2
+
+"access-om3.mom6.3d.bac1_ydoc.1day.mean.%4yr", 1, "days", 1, "days", "time", 1, "years"
+"generic_wombatmid", "bac1_ydoc", "bac1_ydoc", "access-om3.mom6.3d.bac1_ydoc.1day.mean.%4yr", "all", "average", "none", 2
+
+"access-om3.mom6.3d.bac1resp.1day.mean.%4yr", 1, "days", 1, "days", "time", 1, "years"
+"generic_wombatmid", "bac1resp", "bac1resp", "access-om3.mom6.3d.bac1resp.1day.mean.%4yr", "all", "average", "none", 2
+
+"access-om3.mom6.3d.bac1_fanaer.1day.mean.%4yr", 1, "days", 1, "days", "time", 1, "years"
+"generic_wombatmid", "bac1_fanaer", "bac1_fanaer", "access-om3.mom6.3d.bac1_fanaer.1day.mean.%4yr", "all", "average", "none", 2
+
+"access-om3.mom6.3d.bac1_fnlim.1day.mean.%4yr", 1, "days", 1, "days", "time", 1, "years"
+"generic_wombatmid", "bac1_fnlim", "bac1_fnlim", "access-om3.mom6.3d.bac1_fnlim.1day.mean.%4yr", "all", "average", "none", 2
+
+"access-om3.mom6.3d.bac1_ffelim.1day.mean.%4yr", 1, "days", 1, "days", "time", 1, "years"
+"generic_wombatmid", "bac1_ffelim", "bac1_ffelim", "access-om3.mom6.3d.bac1_ffelim.1day.mean.%4yr", "all", "average", "none", 2
+
+"access-om3.mom6.3d.bac1deni.1day.mean.%4yr", 1, "days", 1, "days", "time", 1, "years"
+"generic_wombatmid", "bac1deni", "bac1deni", "access-om3.mom6.3d.bac1deni.1day.mean.%4yr", "all", "average", "none", 2
+
+"access-om3.mom6.3d.bac2grow.1day.mean.%4yr", 1, "days", 1, "days", "time", 1, "years"
+"generic_wombatmid", "bac2grow", "bac2grow", "access-om3.mom6.3d.bac2grow.1day.mean.%4yr", "all", "average", "none", 2
+
+"access-om3.mom6.3d.bac2_mu.1day.mean.%4yr", 1, "days", 1, "days", "time", 1, "years"
+"generic_wombatmid", "bac2_mu", "bac2_mu", "access-om3.mom6.3d.bac2_mu.1day.mean.%4yr", "all", "average", "none", 2
+
+"access-om3.mom6.3d.bac2_ydoc.1day.mean.%4yr", 1, "days", 1, "days", "time", 1, "years"
+"generic_wombatmid", "bac2_ydoc", "bac2_ydoc", "access-om3.mom6.3d.bac2_ydoc.1day.mean.%4yr", "all", "average", "none", 2
+
+"access-om3.mom6.3d.bac2resp.1day.mean.%4yr", 1, "days", 1, "days", "time", 1, "years"
+"generic_wombatmid", "bac2resp", "bac2resp", "access-om3.mom6.3d.bac2resp.1day.mean.%4yr", "all", "average", "none", 2
+
+"access-om3.mom6.3d.bac2_fanaer.1day.mean.%4yr", 1, "days", 1, "days", "time", 1, "years"
+"generic_wombatmid", "bac2_fanaer", "bac2_fanaer", "access-om3.mom6.3d.bac2_fanaer.1day.mean.%4yr", "all", "average", "none", 2
+
+"access-om3.mom6.3d.bac2_fnlim.1day.mean.%4yr", 1, "days", 1, "days", "time", 1, "years"
+"generic_wombatmid", "bac2_fnlim", "bac2_fnlim", "access-om3.mom6.3d.bac2_fnlim.1day.mean.%4yr", "all", "average", "none", 2
+
+"access-om3.mom6.3d.bac2_ffelim.1day.mean.%4yr", 1, "days", 1, "days", "time", 1, "years"
+"generic_wombatmid", "bac2_ffelim", "bac2_ffelim", "access-om3.mom6.3d.bac2_ffelim.1day.mean.%4yr", "all", "average", "none", 2
+
+"access-om3.mom6.3d.bac2deni.1day.mean.%4yr", 1, "days", 1, "days", "time", 1, "years"
+"generic_wombatmid", "bac2deni", "bac2deni", "access-om3.mom6.3d.bac2deni.1day.mean.%4yr", "all", "average", "none", 2
+
+"access-om3.mom6.3d.aoagrow.1day.mean.%4yr", 1, "days", 1, "days", "time", 1, "years"
+"generic_wombatmid", "aoagrow", "aoagrow", "access-om3.mom6.3d.aoagrow.1day.mean.%4yr", "all", "average", "none", 2
+
+"access-om3.mom6.3d.aoa_mu.1day.mean.%4yr", 1, "days", 1, "days", "time", 1, "years"
+"generic_wombatmid", "aoa_mu", "aoa_mu", "access-om3.mom6.3d.aoa_mu.1day.mean.%4yr", "all", "average", "none", 2
+
+"access-om3.mom6.3d.aoa_en2o.1day.mean.%4yr", 1, "days", 1, "days", "time", 1, "years"
+"generic_wombatmid", "aoa_en2o", "aoa_en2o", "access-om3.mom6.3d.aoa_en2o.1day.mean.%4yr", "all", "average", "none", 2
+
+"access-om3.mom6.3d.ammox.1day.mean.%4yr", 1, "days", 1, "days", "time", 1, "years"
+"generic_wombatmid", "ammox", "ammox", "access-om3.mom6.3d.ammox.1day.mean.%4yr", "all", "average", "none", 2
+
+"access-om3.mom6.3d.anammox.1day.mean.%4yr", 1, "days", 1, "days", "time", 1, "years"
+"generic_wombatmid", "anammox", "anammox", "access-om3.mom6.3d.anammox.1day.mean.%4yr", "all", "average", "none", 2
+
+"access-om3.mom6.3d.det_density.1day.mean.%4yr", 1, "days", 1, "days", "time", 1, "years"
+"generic_wombatmid", "det_density", "det_density", "access-om3.mom6.3d.det_density.1day.mean.%4yr", "all", "average", "none", 2
+
+"access-om3.mom6.3d.bdet_density.1day.mean.%4yr", 1, "days", 1, "days", "time", 1, "years"
+"generic_wombatmid", "bdet_density", "bdet_density", "access-om3.mom6.3d.bdet_density.1day.mean.%4yr", "all", "average", "none", 2
 
 "access-om3.mom6.3d.det_vmove.1day.mean.%4yr", 1, "days", 1, "days", "time", 1, "years"
-"generic_wombatlite", "det_vmove", "det_vmove", "access-om3.mom6.3d.det_vmove.1day.mean.%4yr", "all", "average", "none", 2
+"generic_wombatmid", "det_vmove", "det_vmove", "access-om3.mom6.3d.det_vmove.1day.mean.%4yr", "all", "average", "none", 2
+
+"access-om3.mom6.3d.bdet_vmove.1day.mean.%4yr", 1, "days", 1, "days", "time", 1, "years"
+"generic_wombatmid", "bdet_vmove", "bdet_vmove", "access-om3.mom6.3d.bdet_vmove.1day.mean.%4yr", "all", "average", "none", 2
 
 "access-om3.mom6.3d.caco3_vmove.1day.mean.%4yr", 1, "days", 1, "days", "time", 1, "years"
-"generic_wombatlite", "caco3_vmove", "caco3_vmove", "access-om3.mom6.3d.caco3_vmove.1day.mean.%4yr", "all", "average", "none", 2
+"generic_wombatmid", "caco3_vmove", "caco3_vmove", "access-om3.mom6.3d.caco3_vmove.1day.mean.%4yr", "all", "average", "none", 2
 
 
 # 2d diagnostic BGC fields
 
 "access-om3.mom6.2d.pco2.1day.mean.%4yr", 1, "days", 1, "days", "time", 1, "years"
-"generic_wombatlite", "pco2", "pco2", "access-om3.mom6.2d.pco2.1day.mean.%4yr", "all", "average", "none", 2
+"generic_wombatmid", "pco2", "pco2", "access-om3.mom6.2d.pco2.1day.mean.%4yr", "all", "average", "none", 2
+
+"access-om3.mom6.2d.npp2d.1day.mean.%4yr", 1, "days", 1, "days", "time", 1, "years"
+"generic_wombatmid", "npp2d", "npp2d", "access-om3.mom6.2d.npp2d.1day.mean.%4yr", "all", "average", "none", 2
+
+"access-om3.mom6.2d.rpp2d.1day.mean.%4yr", 1, "days", 1, "days", "time", 1, "years"
+"generic_wombatmid", "rpp2d", "rpp2d", "access-om3.mom6.2d.rpp2d.1day.mean.%4yr", "all", "average", "none", 2
+
+"access-om3.mom6.2d.zsp2d.1day.mean.%4yr", 1, "days", 1, "days", "time", 1, "years"
+"generic_wombatmid", "zsp2d", "zsp2d", "access-om3.mom6.2d.zsp2d.1day.mean.%4yr", "all", "average", "none", 2
+
+"access-om3.mom6.2d.det_sed_remin.1day.mean.%4yr", 1, "days", 1, "days", "time", 1, "years"
+"generic_wombatmid", "det_sed_remin", "det_sed_remin", "access-om3.mom6.2d.det_sed_remin.1day.mean.%4yr", "all", "average", "none", 2
+
+"access-om3.mom6.2d.det_sed_depst.1day.mean.%4yr", 1, "days", 1, "days", "time", 1, "years"
+"generic_wombatmid", "det_sed_depst", "det_sed_depst", "access-om3.mom6.2d.det_sed_depst.1day.mean.%4yr", "all", "average", "none", 2
+
+"access-om3.mom6.2d.det_sed_denit.1day.mean.%4yr", 1, "days", 1, "days", "time", 1, "years"
+"generic_wombatmid", "det_sed_denit", "det_sed_denit", "access-om3.mom6.2d.det_sed_denit.1day.mean.%4yr", "all", "average", "none", 2
+
+"access-om3.mom6.2d.det_sed_bury.1day.mean.%4yr", 1, "days", 1, "days", "time", 1, "years"
+"generic_wombatmid", "det_sed_bury", "det_sed_bury", "access-om3.mom6.2d.det_sed_bury.1day.mean.%4yr", "all", "average", "none", 2
+
+"access-om3.mom6.2d.fbury.1day.mean.%4yr", 1, "days", 1, "days", "time", 1, "years"
+"generic_wombatmid", "fbury", "fbury", "access-om3.mom6.2d.fbury.1day.mean.%4yr", "all", "average", "none", 2
+
+"access-om3.mom6.2d.fdenit.1day.mean.%4yr", 1, "days", 1, "days", "time", 1, "years"
+"generic_wombatmid", "fdenit", "fdenit", "access-om3.mom6.2d.fdenit.1day.mean.%4yr", "all", "average", "none", 2
+
+"access-om3.mom6.2d.detfe_sed_remin.1day.mean.%4yr", 1, "days", 1, "days", "time", 1, "years"
+"generic_wombatmid", "detfe_sed_remin", "detfe_sed_remin", "access-om3.mom6.2d.detfe_sed_remin.1day.mean.%4yr", "all", "average", "none", 2
+
+"access-om3.mom6.2d.detfe_sed_depst.1day.mean.%4yr", 1, "days", 1, "days", "time", 1, "years"
+"generic_wombatmid", "detfe_sed_depst", "detfe_sed_depst", "access-om3.mom6.2d.detfe_sed_depst.1day.mean.%4yr", "all", "average", "none", 2
+
+"access-om3.mom6.2d.detfe_sed_bury.1day.mean.%4yr", 1, "days", 1, "days", "time", 1, "years"
+"generic_wombatmid", "detfe_sed_bury", "detfe_sed_bury", "access-om3.mom6.2d.detfe_sed_bury.1day.mean.%4yr", "all", "average", "none", 2
+
+"access-om3.mom6.2d.detsi_sed_remin.1day.mean.%4yr", 1, "days", 1, "days", "time", 1, "years"
+"generic_wombatmid", "detsi_sed_remin", "detsi_sed_remin", "access-om3.mom6.2d.detsi_sed_remin.1day.mean.%4yr", "all", "average", "none", 2
+
+"access-om3.mom6.2d.detsi_sed_depst.1day.mean.%4yr", 1, "days", 1, "days", "time", 1, "years"
+"generic_wombatmid", "detsi_sed_depst", "detsi_sed_depst", "access-om3.mom6.2d.detsi_sed_depst.1day.mean.%4yr", "all", "average", "none", 2
+
+"access-om3.mom6.2d.detsi_sed_bury.1day.mean.%4yr", 1, "days", 1, "days", "time", 1, "years"
+"generic_wombatmid", "detsi_sed_bury", "detsi_sed_bury", "access-om3.mom6.2d.detsi_sed_bury.1day.mean.%4yr", "all", "average", "none", 2
+
+"access-om3.mom6.2d.caco3_sed_remin.1day.mean.%4yr", 1, "days", 1, "days", "time", 1, "years"
+"generic_wombatmid", "caco3_sed_remin", "caco3_sed_remin", "access-om3.mom6.2d.caco3_sed_remin.1day.mean.%4yr", "all", "average", "none", 2
+
+"access-om3.mom6.2d.caco3_sed_depst.1day.mean.%4yr", 1, "days", 1, "days", "time", 1, "years"
+"generic_wombatmid", "caco3_sed_depst", "caco3_sed_depst", "access-om3.mom6.2d.caco3_sed_depst.1day.mean.%4yr", "all", "average", "none", 2
+
+"access-om3.mom6.2d.caco3_sed_bury.1day.mean.%4yr", 1, "days", 1, "days", "time", 1, "years"
+"generic_wombatmid", "caco3_sed_bury", "caco3_sed_bury", "access-om3.mom6.2d.caco3_sed_bury.1day.mean.%4yr", "all", "average", "none", 2
 
 "access-om3.mom6.2d.o2_stf.1day.mean.%4yr", 1, "days", 1, "days", "time", 1, "years"
-"generic_wombatlite", "o2_stf", "o2_stf", "access-om3.mom6.2d.o2_stf.1day.mean.%4yr", "all", "average", "none", 2
+"generic_wombatmid", "o2_stf", "o2_stf", "access-om3.mom6.2d.o2_stf.1day.mean.%4yr", "all", "average", "none", 2
+
+"access-om3.mom6.2d.n2o_stf.1day.mean.%4yr", 1, "days", 1, "days", "time", 1, "years"
+"generic_wombatmid", "n2o_stf", "n2o_stf", "access-om3.mom6.2d.n2o_stf.1day.mean.%4yr", "all", "average", "none", 2
+
+"access-om3.mom6.2d.n2o_csurf.1day.mean.%4yr", 1, "days", 1, "days", "time", 1, "years"
+"generic_wombatmid", "n2o_csurf", "n2o_csurf", "access-om3.mom6.2d.n2o_csurf.1day.mean.%4yr", "all", "average", "none", 2
 
 "access-om3.mom6.2d.dic_stf.1day.mean.%4yr", 1, "days", 1, "days", "time", 1, "years"
-"generic_wombatlite", "dic_stf", "dic_stf", "access-om3.mom6.2d.dic_stf.1day.mean.%4yr", "all", "average", "none", 2
+"generic_wombatmid", "dic_stf", "dic_stf", "access-om3.mom6.2d.dic_stf.1day.mean.%4yr", "all", "average", "none", 2
 
 "access-om3.mom6.2d.dic_csurf.1day.mean.%4yr", 1, "days", 1, "days", "time", 1, "years"
-"generic_wombatlite", "dic_csurf", "dic_csurf", "access-om3.mom6.2d.dic_csurf.1day.mean.%4yr", "all", "average", "none", 2
+"generic_wombatmid", "dic_csurf", "dic_csurf", "access-om3.mom6.2d.dic_csurf.1day.mean.%4yr", "all", "average", "none", 2
+
+"access-om3.mom6.2d.fe_stf.1day.mean.%4yr", 1, "days", 1, "days", "time", 1, "years"
+"generic_wombatmid", "fe_stf", "fe_stf", "access-om3.mom6.2d.fe_stf.1day.mean.%4yr", "all", "average", "none", 2
+
+"access-om3.mom6.2d.doc_btf.1day.mean.%4yr", 1, "days", 1, "days", "time", 1, "years"
+"generic_wombatmid", "doc_btf", "doc_btf", "access-om3.mom6.2d.doc_btf.1day.mean.%4yr", "all", "average", "none", 2
+
+"access-om3.mom6.2d.dic_btf.1day.mean.%4yr", 1, "days", 1, "days", "time", 1, "years"
+"generic_wombatmid", "dic_btf", "dic_btf", "access-om3.mom6.2d.dic_btf.1day.mean.%4yr", "all", "average", "none", 2
+
+"access-om3.mom6.2d.alk_btf.1day.mean.%4yr", 1, "days", 1, "days", "time", 1, "years"
+"generic_wombatmid", "alk_btf", "alk_btf", "access-om3.mom6.2d.alk_btf.1day.mean.%4yr", "all", "average", "none", 2
+
+"access-om3.mom6.2d.don_btf.1day.mean.%4yr", 1, "days", 1, "days", "time", 1, "years"
+"generic_wombatmid", "don_btf", "don_btf", "access-om3.mom6.2d.don_btf.1day.mean.%4yr", "all", "average", "none", 2
+
+"access-om3.mom6.2d.no3_btf.1day.mean.%4yr", 1, "days", 1, "days", "time", 1, "years"
+"generic_wombatmid", "no3_btf", "no3_btf", "access-om3.mom6.2d.no3_btf.1day.mean.%4yr", "all", "average", "none", 2
+
+"access-om3.mom6.2d.sil_btf.1day.mean.%4yr", 1, "days", 1, "days", "time", 1, "years"
+"generic_wombatmid", "sil_btf", "sil_btf", "access-om3.mom6.2d.sil_btf.1day.mean.%4yr", "all", "average", "none", 2
+
+"access-om3.mom6.2d.fe_btf.1day.mean.%4yr", 1, "days", 1, "days", "time", 1, "years"
+"generic_wombatmid", "fe_btf", "fe_btf", "access-om3.mom6.2d.fe_btf.1day.mean.%4yr", "all", "average", "none", 2
+
+"access-om3.mom6.2d.o2_btf.1day.mean.%4yr", 1, "days", 1, "days", "time", 1, "years"
+"generic_wombatmid", "o2_btf", "o2_btf", "access-om3.mom6.2d.o2_btf.1day.mean.%4yr", "all", "average", "none", 2
 
 "access-om3.mom6.2d.det_sediment.1day.mean.%4yr", 1, "days", 1, "days", "time", 1, "years"
-"generic_wombatlite", "det_sediment", "det_sediment", "access-om3.mom6.2d.det_sediment.1day.mean.%4yr", "all", "average", "none", 2
+"generic_wombatmid", "det_sediment", "det_sediment", "access-om3.mom6.2d.det_sediment.1day.mean.%4yr", "all", "average", "none", 2
 
 "access-om3.mom6.2d.detfe_sediment.1day.mean.%4yr", 1, "days", 1, "days", "time", 1, "years"
-"generic_wombatlite", "detfe_sediment", "detfe_sediment", "access-om3.mom6.2d.detfe_sediment.1day.mean.%4yr", "all", "average", "none", 2
+"generic_wombatmid", "detfe_sediment", "detfe_sediment", "access-om3.mom6.2d.detfe_sediment.1day.mean.%4yr", "all", "average", "none", 2
+
+"access-om3.mom6.2d.detsi_sediment.1day.mean.%4yr", 1, "days", 1, "days", "time", 1, "years"
+"generic_wombatmid", "detsi_sediment", "detsi_sediment", "access-om3.mom6.2d.detsi_sediment.1day.mean.%4yr", "all", "average", "none", 2
 
 "access-om3.mom6.2d.caco3_sediment.1day.mean.%4yr", 1, "days", 1, "days", "time", 1, "years"
-"generic_wombatlite", "caco3_sediment", "caco3_sediment", "access-om3.mom6.2d.caco3_sediment.1day.mean.%4yr", "all", "average", "none", 2
+"generic_wombatmid", "caco3_sediment", "caco3_sediment", "access-om3.mom6.2d.caco3_sediment.1day.mean.%4yr", "all", "average", "none", 2
 
 "access-om3.mom6.2d.zeuphot.1day.mean.%4yr", 1, "days", 1, "days", "time", 1, "years"
-"generic_wombatlite", "zeuphot", "zeuphot", "access-om3.mom6.2d.zeuphot.1day.mean.%4yr", "all", "average", "none", 2
+"generic_wombatmid", "zeuphot", "zeuphot", "access-om3.mom6.2d.zeuphot.1day.mean.%4yr", "all", "average", "none", 2
+
+"access-om3.mom6.2d.det_radius.1day.mean.%4yr", 1, "days", 1, "days", "time", 1, "years"
+"generic_wombatmid", "det_radius", "det_radius", "access-om3.mom6.2d.det_radius.1day.mean.%4yr", "all", "average", "none", 2
+
+"access-om3.mom6.2d.bdet_radius.1day.mean.%4yr", 1, "days", 1, "days", "time", 1, "years"
+"generic_wombatmid", "bdet_radius", "bdet_radius", "access-om3.mom6.2d.bdet_radius.1day.mean.%4yr", "all", "average", "none", 2
+
+"access-om3.mom6.2d.sedhtotal.1day.mean.%4yr", 1, "days", 1, "days", "time", 1, "years"
+"generic_wombatmid", "sedhtotal", "sedhtotal", "access-om3.mom6.2d.sedhtotal.1day.mean.%4yr", "all", "average", "none", 2
+
+"access-om3.mom6.2d.sedco3.1day.mean.%4yr", 1, "days", 1, "days", "time", 1, "years"
+"generic_wombatmid", "sedco3", "sedco3", "access-om3.mom6.2d.sedco3.1day.mean.%4yr", "all", "average", "none", 2
+
+"access-om3.mom6.2d.sedomega_cal.1day.mean.%4yr", 1, "days", 1, "days", "time", 1, "years"
+"generic_wombatmid", "sedomega_cal", "sedomega_cal", "access-om3.mom6.2d.sedomega_cal.1day.mean.%4yr", "all", "average", "none", 2

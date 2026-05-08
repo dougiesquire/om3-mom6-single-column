@@ -210,129 +210,295 @@ diag_table:
         defaults:  # these can be overridden for individual fields below
             file_name_dimension: 3d  # descriptor for filename, e.g. 3d, 2d, scalar
             reduction_method: mean
-            module_name: generic_wombatlite
+            module_name: generic_wombatmid
         fields:
             alk:
             caco3:
             det:
             detfe:
+            bdet:
+            bdetfe:
+            bdetsi:
+            doc:
+            don:
+            nosdoc:
+            bac1:
+            bac2:
+            aoa:
             dic:
             dicr:
             dicp:
             fe:
+            afe:
+            bafe:
             no3:
+            nh4:
+            sil:
             o2:
+            n2o:
             phy:
             phyfe:
             pchl:
+            dia:
+            diafe:
+            diasi:
+            dchl:
             zoo:
+            mes:
             zoofe:
+            mesfe:
 
     '3d diagnostic BGC fields':
         defaults:  # these can be overridden for individual fields below
             file_name_dimension: 3d  # descriptor for filename, e.g. 3d, 2d, scalar
             reduction_method: mean
-            module_name: generic_wombatlite
+            module_name: generic_wombatmid
         fields:
             npp3d:
+            rpp3d:
             zsp3d:
             radbio:
             #radmid:
             #radmld:
+            #trimumax:
+            #tri_lpar:
+            #tri_lfer:
+            nitrfix:
             phy_mu:
-            #phy_muax:
+            phygrow:
+            phydoc:
             #phy_kni:
             #phy_kfe:
             phy_lpar:
             phy_lnit:
+            #phy_lnh4:
+            #phy_lno3:
             phy_lfer:
             phy_dfeupt:
-            #phy_feupreg:
             #phy_fedoreg:
-            phygrow:
-            phymorl:
-            phymorq:
+            #phy_feupreg:
+            #phymorl:
+            #phymorq:
+            dia_mu:
+            diagrow:
+            diadoc:
+            #dia_kni:
+            #dia_kfe:
+            #dia_ksi:
+            dia_lpar:
+            dia_lnit:
+            #dia_lnh4:
+            #dia_lno3:
+            dia_lfer:
+            dia_lsil:
+            dia_dfeupt:
+            #dia_fedoreg:
+            #dia_feupreg:
+            dia_silupt:
+            #dia_sidoreg:
+            #diamorl:
+            #diamorq:
             pchl_mu:
-            #feIII:
-            #felig:
-            #fecol:
-            #feprecip:
-            #fescaven:
-            #fescadet:
-            #fescoag2det:
+            dchl_mu:
+            #sileqc:
+            #disssi:
+            bsidiss:
+            feIII:
+            felig:
+            ligK:
+            fecol:
+            fescaven:
+            fescaafe:
+            fescabafe:
+            fecoag2afe:
+            fecoag2bafe:
+            afediss:
+            bafediss:
             fesources:
             fesinks:
-            htotal:
-            omega_ara:
-            omega_cal:
-            #co3:
-            #co2_star:
             pic2poc:
-            zooeps:
-            zoograzphy:
-            zoograzdet:
-            #zooassiphy:
-            #zooassidet:
-            #zooexcrphy:
-            #zooexcrdet:
-            #zooegesphy:
-            #zooegesdet:
-            #zoomorl:
-            #zoomorq:
-            #reminr:
-            detremi:
             #dissratcal:
             #dissratara:
             #dissratpoc:
             #zoodiss:
+            #mesdiss:
             #caldiss:
             #aradiss:
             #pocdiss:
+            #htotal:
+            #co3:
+            #co2_star:
+            omega_ara:
+            omega_cal:
+            zooeps:
+            #zooprefbac1:
+            #zooprefbac2:
+            #zooprefaoa:
+            #zooprefphy:
+            #zooprefdia:
+            #zooprefdet:
+            zoograzbac1:
+            zoograzbac2:
+            zoograzaoa:
+            zoograzphy:
+            zoograzdia:
+            zoograzdet:
+            #zooexcrbac1:
+            #zooexcrbac2:
+            #zooexcraoa:
+            #zooexcrphy:
+            #zooexcrdia:
+            #zooexcrdet:
+            #zooegesbac1:
+            #zooegesbac2:
+            #zooegesaoa:
+            #zooegesphy:
+            #zooegesdia:
+            #zooegesdet:
+            #zoomorl:
+            #zoomorq:
+            meseps:
+            #mesprefbac1:
+            #mesprefbac2:
+            #mesprefaoa:
+            #mesprefphy:
+            #mesprefdia:
+            #mesprefdet:
+            #mesprefbdet:
+            #mesprefzoo:
+            mesgrazbac1:
+            mesgrazbac2:
+            mesgrazaoa:
+            mesgrazphy:
+            mesgrazdia:
+            mesgrazdet:
+            mesgrazbdet:
+            mesgrazzoo:
+            #mesmorl:
+            mesmorq:
+            #mesexcrbac1:
+            #mesexcrbac2:
+            #mesexcraoa:
+            #mesexcrphy:
+            #mesexcrdia:
+            #mesexcrdet:
+            #mesexcrbdet:
+            #mesexcrzoo:
+            #mesegesbac1:
+            #mesegesbac2:
+            #mesegesaoa:
+            #mesegesphy:
+            #mesegesdia:
+            #mesegesdet:
+            #mesegesbdet:
+            #mesegeszoo:
+            #reminr:
+            detremi:
+            bdetremi:
+            doc1remi:
+            doc2remi:
+            don1remi:
+            don2remi:
+            bac1nupt:
+            bac2nupt:
+            bac_ydon:
+            bac1grow:
+            bac1_mu:
+            bac1_ydoc:
+            bac1resp:
+            #bac1unh4:
+            #bac1ufer:
+            bac1_fanaer:
+            bac1_fnlim:
+            bac1_ffelim:
+            bac1deni:
+            #bac1morl:
+            #bac1morq:
+            bac2grow:
+            bac2_mu:
+            bac2_ydoc:
+            bac2resp:
+            #bac2unh4:
+            #bac2ufer:
+            bac2_fanaer:
+            bac2_fnlim:
+            bac2_ffelim:
+            bac2deni:
+            #bac2morl:
+            #bac2morq:
+            aoagrow:
+            aoa_mu:
+            #aoa_mumax:
+            #aoaresp:
+            #aoamorl:
+            #aoamorq:
+            #aoa_loxy:
+            #aoa_lnh4:
+            aoa_en2o:
+            #aoa_eno3:
+            ammox:
+            #aox_mu:
+            #aox_lnh4:
+            anammox:
+            #dynvis_sw:
+            det_density:
+            bdet_density:
             det_vmove:
+            bdet_vmove:
             caco3_vmove:
+            #nosdoc_overflow:
+            #nosdoc_excretion:
+            #nosdoc_phylysis:
+            #nosdoc_baclysis:
+            #nosdoc_dethydro:
+            #nosdoc_docconsu:
 
     '2d diagnostic BGC fields':
         defaults:  # these can be overridden for individual fields below
             file_name_dimension: 2d  # descriptor for filename, e.g. 3d, 2d, scalar
             reduction_method: mean
-            module_name: generic_wombatlite
+            module_name: generic_wombatmid
         fields:
             pco2:
-            #det_sed_remin:
-            #det_sed_depst:
-            #detfe_sed_remin:
-            #detfe_sed_depst:
-            #caco3_sed_remin:
-            #caco3_sed_depst:
-            #fbury:
+            npp2d:
+            rpp2d:
+            zsp2d:
+            det_sed_remin:
+            det_sed_depst:
+            det_sed_denit:
+            det_sed_bury:
+            fbury:
+            fdenit:
+            detfe_sed_remin:
+            detfe_sed_depst:
+            detfe_sed_bury:
+            detsi_sed_remin:
+            detsi_sed_depst:
+            detsi_sed_bury:
+            caco3_sed_remin:
+            caco3_sed_depst:
+            caco3_sed_bury:
             o2_stf:
-            #no3_stf:
-            #fe_stf:
+            n2o_stf:
+            n2o_csurf:
             dic_stf:
             dic_csurf:
-            #dicp_stf:
-            #dicp_csurf:
-            #alk_stf:
-            #o2_btf:
-            #no3_btf:
-            #fe_btf:
-            #dic_btf:
-            #alk_btf:
-            #no3_vstf:
-            #dic_vstf:
-            #dicp_vstf:
-            #alk_vstf:
+            fe_stf:
+            doc_btf:
+            dic_btf:
+            alk_btf:
+            don_btf:
+            no3_btf:
+            sil_btf:
+            fe_btf:
+            o2_btf:
             det_sediment:
             detfe_sediment:
+            detsi_sediment:
             caco3_sediment:
             zeuphot:
-            #sedtemp:
-            #seddep:
-            #sedmask:
-            #sedsalt:
-            #sedno3:
-            #seddic:
-            #sedalk:
-            #sedhtotal:
-            #sedco3:
-            #sedomega_cal:
+            det_radius:
+            bdet_radius:
+            sedhtotal:
+            sedco3:
+            sedomega_cal:
