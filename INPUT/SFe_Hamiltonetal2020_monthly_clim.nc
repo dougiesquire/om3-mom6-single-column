@@ -1,1 +1,0 @@
-./BATS/SFe_Hamiltonetal2020_monthly_clim.nc

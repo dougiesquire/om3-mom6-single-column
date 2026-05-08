@@ -1,1 +1,0 @@
-BATS/horizontal_grid.nc
